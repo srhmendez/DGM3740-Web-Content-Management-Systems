@@ -2,21 +2,22 @@
 
 The purpose of this assignment is build the HTML/CSS responsive page used for Cabot Cruises.
 
-## Assignment Checklist
+- Assignment Checklist
 
-### View the wireframes used for this assignment
+- View the wireframes used for this assignment
 
-### Create a new folder under your 3740 sub-domain called "template".
+- Create a new folder under your 3740 sub-domain called "template".
 
-### Build only the home page for the client.
+- Build only the home page for the client.
 
-### Use a CSS preprocessor to reduce the number of HTTP requests made by your page.
+- Use a CSS preprocessor to reduce the number of HTTP requests made by your page.
 
-### Use a Google font that fits the overall deisng of your site.
+- Use a Google font that fits the overall deisng of your site.
 
-### Using a CSS Framework will automatically fail this assignment.
+- Using a CSS Framework will automatically fail this assignment.
 
-## Site Header
+#### Site Header
+
 [x] - Build a custom logo for Cabot Cruises. This logo should have three different versions that are loaded based on the pixel density of the end users device.
 
 [x] - Label each of the three with a tiny 1, 2 or 3 so we can tell that the responsive image is working correctly.
@@ -41,7 +42,7 @@ The purpose of this assignment is build the HTML/CSS responsive page used for Ca
 
 [x] - Navigation MUST be an unordered list with list items. Each list item will have an anchor inside it.
 
-## Slider
+####  Slider
 
 [x] - Build 4 horizontal slider images that are 350px high by 1200px wide. You will use these on the medium and large screens
 
@@ -71,7 +72,7 @@ The purpose of this assignment is build the HTML/CSS responsive page used for Ca
 
 [x] - Images should have the opacity set to 75% and on mouse hover the opacity transitions to 100%.
 
-## Footer
+#### Footer
 
 [x] - The footer will contain three sections. You are welcome to use the text provided in the wireframes.
 
@@ -86,7 +87,7 @@ height as shown in the wireframes.
 
 [x] - Add a copyright year with your name and a URL to your portfolio site.
 
-## Structured Data
+#### Structured Data
 
 [x] - The company name, address, phone number and hours of operation will all be formatted as structured data using JSON-LD.
 
@@ -96,7 +97,7 @@ height as shown in the wireframes.
 
 [x] - Your page must pass the Google Mobile Friedly test.
 
-## Social
+#### Social
 
 [x] - The client has requested 5 social icons to be displayed below the footer. These should be centered and change color on hover.
 
