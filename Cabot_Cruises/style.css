@@ -3,12 +3,22 @@ body{
     margin:0 auto;
     background:rgb(255, 253, 246);
 }
+
+
+/* Header Styling */
+
 header{
     background:rgb(220, 247, 255);
-    max-width:1200px;
+    width:100%;
 }
-footer{
-    background: rgba(255, 189, 128, 0.568);
+
+div#header{
+  width:100%;
+  max-width:1200px;
+  margin:0 auto;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 img#logo{
@@ -18,6 +28,15 @@ width:200px;
 header{
     display:flex;
     flex-direction: row;
+}
+
+
+
+
+/* Footer Styling  */
+
+footer{
+  background: rgba(255, 189, 128, 0.568);
 }
 
 /* medium screens media query */
