@@ -1,0 +1,35 @@
+body{
+    box-sizing: border-box;
+    margin:0 auto;
+    background:rgb(255, 253, 246);
+}
+header{
+    background:rgb(220, 247, 255);
+    max-width:1200px;
+}
+footer{
+    background: rgba(255, 189, 128, 0.568);
+}
+
+img#logo{
+width:200px;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+}
+
+/* medium screens media query */
+
+@media only screen and (max-width: 1200px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+/* small screens media query */
+
+@media only screen and (max-width: 600px) {
+
+  }
