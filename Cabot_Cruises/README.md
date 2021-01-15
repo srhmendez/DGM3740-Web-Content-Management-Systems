@@ -16,6 +16,7 @@ The purpose of this assignment is build the HTML/CSS responsive page used for Ca
 
 - Using a CSS Framework will automatically fail this assignment.
 
+
 #### Site Header
 
 [x] - Build a custom logo for Cabot Cruises. This logo should have three different versions that are loaded based on the pixel density of the end users device.
@@ -41,6 +42,7 @@ The purpose of this assignment is build the HTML/CSS responsive page used for Ca
 [x] - In small screens the menu items will be displayed using a hamburger icon. You can use my code on Git-hub or some other appropriate small screen navigation pattern.
 
 [x] - Navigation MUST be an unordered list with list items. Each list item will have an anchor inside it.
+
 
 ####  Slider
 
@@ -72,6 +74,7 @@ The purpose of this assignment is build the HTML/CSS responsive page used for Ca
 
 [x] - Images should have the opacity set to 75% and on mouse hover the opacity transitions to 100%.
 
+
 #### Footer
 
 [x] - The footer will contain three sections. You are welcome to use the text provided in the wireframes.
@@ -87,6 +90,7 @@ height as shown in the wireframes.
 
 [x] - Add a copyright year with your name and a URL to your portfolio site.
 
+
 #### Structured Data
 
 [x] - The company name, address, phone number and hours of operation will all be formatted as structured data using JSON-LD.
@@ -96,6 +100,7 @@ height as shown in the wireframes.
 [x] - Mobile Friendly Test
 
 [x] - Your page must pass the Google Mobile Friedly test.
+
 
 #### Social
 
