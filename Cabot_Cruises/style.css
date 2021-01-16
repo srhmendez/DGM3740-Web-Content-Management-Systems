@@ -1,54 +1,40 @@
-body{
-    box-sizing: border-box;
-    margin:0 auto;
-    background:rgb(255, 253, 246);
-}
-
-
 /* Header Styling */
+header {
+  background: #dcf7ff;
+  width: 100%; }
 
-header{
-    background:rgb(220, 247, 255);
-    width:100%;
-}
-
-div#header{
-  width:100%;
-  max-width:1200px;
-  margin:0 auto;
-  display:flex;
+div#header {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
   flex-direction: row;
-  justify-content: space-between;
-}
+  justify-content: space-between; }
 
-img#logo{
-width:200px;
-}
+img#logo {
+  width: 200px; }
 
-header{
-    display:flex;
-    flex-direction: row;
-}
+header {
+  display: flex;
+  flex-direction: row; }
 
+a#telephoneNum {
+  text-decoration: none;
+  color: #22168d;
+  font-size: 1.3rem; }
 
-
+div.phoneNum {
+  display: flex;
+  align-items: center; }
 
 /* Footer Styling  */
-
-footer{
-  background: rgba(255, 189, 128, 0.568);
-}
-
-/* medium screens media query */
-
-@media only screen and (max-width: 1200px) {
-    body {
-      background-color: lightblue;
-    }
-  }
+footer {
+  background: rgba(255, 189, 128, 0.568); }
 
 /* small screens media query */
+/* medium screens media query */
+@media only screen and (max-width: 1200px) {
+  body {
+    background-color: lightblue; } }
 
-@media only screen and (max-width: 600px) {
 
-  }
