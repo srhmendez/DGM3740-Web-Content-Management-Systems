@@ -1,5 +1,9 @@
 /* Header Styling */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;0,900;1,100&display=swap");
+body {
+  margin: 0 auto;
+  box-sizing: border-box; }
+
 header {
   background: #dcf7ff;
   width: 100%; }
@@ -21,12 +25,11 @@ header {
 
 a#telephoneNum {
   text-decoration: none;
-  color: #22168d;
-  font-size: 1.3rem; }
+  color: #277ebe;
+  font-size: 1.3rem;
+  padding-right: 1rem; }
 
 div.phoneNum {
   display: flex;
   align-items: center;
   font-family: 'Poppins', sans-serif, Helvetica, sans-serif; }
-
-/*# sourceMappingURL=header.css.map */
