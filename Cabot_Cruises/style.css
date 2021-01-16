@@ -39,7 +39,63 @@ footer {
   background: rgba(255, 189, 128, 0.568); }
 
 /* small screens media query */
+@media only screen and (max-width: 600px) {
+  figure#logo {
+    margin-left: 5%; }
+
+  a#telephoneNum {
+    font-size: 1rem; }
+
+  #hamburgerBtn span:nth-child(1) {
+    display: block; }
+
+  #hamburgerBtn span:nth-child(2) {
+    display: none; }
+
+  #hamburgerBtn.open span:nth-child(1) {
+    display: none; }
+
+  #hamburgerBtn.open span:nth-child(2) {
+    display: block; }
+
+  ul#primaryNavigation {
+    height: 0;
+    overflow: hidden;
+    background: #ff7b00;
+    padding: 2%; }
+
+  #primaryNavigation li a {
+    text-decoration: none;
+    color: white;
+    list-style-type: none; }
+
+  #primaryNavigation ul li {
+    list-style: none; }
+
+  #primaryNavigation li {
+    margin: 5%;
+    list-style: none; }
+
+  a.nestedLI {
+    text-decoration: none;
+    color: white;
+    list-style: none; }
+
+  #primaryNavigation li.parent > a::after {
+    content: '\25BC';
+    font-size: .75rem;
+    color: white;
+    float: right; }
+
+  #primaryNavigation li ul {
+    display: none; }
+
+  #primaryNavigation li:hover ul {
+    display: block; } }
 /* medium screens media query */
 @media only screen and (max-width: 1200px) {
   body {
-    background-color: lightblue; } }
+    background-color: lightblue; }
+
+  ul#primaryNavigation {
+    height: auto; } }
