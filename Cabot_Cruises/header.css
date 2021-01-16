@@ -29,12 +29,4 @@ div.phoneNum {
   align-items: center;
   font-family: 'Poppins', sans-serif, Helvetica, sans-serif; }
 
-/* Footer Styling  */
-footer {
-  background: rgba(255, 189, 128, 0.568); }
-
-/* small screens media query */
-/* medium screens media query */
-@media only screen and (max-width: 1200px) {
-  body {
-    background-color: lightblue; } }
+/*# sourceMappingURL=header.css.map */
