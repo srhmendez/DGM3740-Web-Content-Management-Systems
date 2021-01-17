@@ -1,5 +1,14 @@
-@import 'small.scss';
-@import 'medium.scss';
-@import 'large.scss';
+@import "small";
+
+@media only screen and (min-width: 35rem) {
+    @import "medium";
+
+} /*End of the Medium Query*/
+
+@media only screen and (min-width: 65rem) {
+    @import "large";
+
+} /*End of the Medium Query*/ 
+
 @import 'header.scss';
 @import 'footer.scss';
