@@ -1,0 +1,93 @@
+// Large CSS styling
+body{
+    margin:0 auto;
+    box-sizing: border-box;
+}
+figure#logo{
+    margin-left:1%;
+}
+
+a#telephoneNum{
+    font-size: 1rem;
+}
+
+ul#primaryNavigation{
+    overflow: hidden;
+    background:rgb(255, 123, 0);
+    padding-top:0;
+    margin-top:0;
+    padding-left:0;
+    margin-left:0;
+    height:2rem;
+}
+#primaryNavigation li a{
+    text-decoration: none;
+    color:white;
+    list-style-type: none;
+    font-family:Poppins;   
+}
+#primaryNavigation ul li {
+    list-style: none;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+#primaryNavigation li {
+    list-style: none;
+}
+li a.nestedLI{
+    text-decoration: none;
+    color:white;
+    list-style: none;
+}
+
+#primaryNavigation li.parent > a::after{
+    content:'\25BC';
+    font-size:.5rem;
+    color: white;
+    float:right;
+    padding-left:5px;
+    display: flex;
+    align-items: center;
+}
+#primaryNavigation li ul {
+    display:none;
+}
+#primaryNavigation li:hover ul{
+    display:block;
+}
+
+nav#navigation{
+    background:rgb(255, 123, 0);
+}
+
+li.parent{
+    min-width:6rem;
+    display:flex;
+    align-items: center;
+}
+
+//add space to the left to match the other left
+li.parent a::after{
+    display:flex;
+}
+ul{
+    margin: 0 0 0 1vw;
+    padding:0;
+    background-color: orange;
+}
+
+ul>li{
+    float:left;
+    list-style: none;
+    border-left:1px solid rgba(255, 255, 255, 0.767);
+    margin-left:2%;
+    margin-right:2%;
+    padding:1%;
+}
+ul>li>a{
+    padding-right:2%;
+}
+button#hamburgerBtn{
+    visibility: hidden;
+}

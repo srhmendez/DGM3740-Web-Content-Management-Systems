@@ -11,7 +11,16 @@ figure#logo{
 a#telephoneNum{
     font-size: 1rem;
 }
-
+button#hamburgerBtn{
+    color:white;
+    background:rgb(255, 123, 0);
+    border:none;
+    padding:1rem;
+    margin:0;
+    i {
+        margin-right:10px;
+    }
+}
 #hamburgerBtn span:nth-child(1){
     display:block;
 }
@@ -29,32 +38,43 @@ ul#primaryNavigation{
     height:0;
     overflow: hidden;
     background:rgb(255, 123, 0);
-    padding:2%;
     padding-top:0;
     margin-top:0;
+    padding-left:0;
+    border: solid .5px rgb(173, 84, 0);
 }
 #primaryNavigation li a{
     text-decoration: none;
     color:white;
     list-style-type: none;
     
+    
 }
 #primaryNavigation ul li {
     list-style: none;
+    margin:0;
+    padding:5%;
+}
+li {
+    border-bottom: solid .5px rgb(173, 84, 0);
+
 }
 #primaryNavigation li {
-    margin:5%;
+    padding:5%;
     list-style: none;
 }
-a.nestedLI{
+li a.nestedLI{
     text-decoration: none;
     color:white;
     list-style: none;
+    border-bottom:none;
 }
-
+li.nested{
+    border:none;
+}
 #primaryNavigation li.parent > a::after{
     content:'\25BC';
-    font-size:.75rem;
+    font-size:.5rem;
     color: white;
     float:right;
 }
@@ -64,17 +84,7 @@ a.nestedLI{
 #primaryNavigation li:hover ul{
     display:block;
 }
-button#hamburgerBtn{
-    color:white;
-    background:rgb(255, 123, 0);
-    border:none;
-    padding:1rem;
-    padding-bottom:5px;
-    margin:0;
-    i {
-        margin-right:10px;
-    }
-}
+
 nav#navigation{
     background:rgb(255, 123, 0);
 }
