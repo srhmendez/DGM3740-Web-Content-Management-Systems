@@ -1,5 +1,81 @@
-/* Header Styling */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;0,900;1,100&display=swap");
+/* small screens media query */
+@media only screen and (max-width: 600px) {
+  figure#logo {
+    margin-left: 5%; }
+
+  a#telephoneNum {
+    font-size: 1rem; }
+
+  #hamburgerBtn span:nth-child(1) {
+    display: block; }
+
+  #hamburgerBtn span:nth-child(2) {
+    display: none; }
+
+  #hamburgerBtn.open span:nth-child(1) {
+    display: none; }
+
+  #hamburgerBtn.open span:nth-child(2) {
+    display: block; }
+
+  ul#primaryNavigation {
+    height: 0;
+    overflow: hidden;
+    background: #ff7b00;
+    padding: 2%;
+    padding-top: 0;
+    margin-top: 0; }
+
+  #primaryNavigation li a {
+    text-decoration: none;
+    color: white;
+    list-style-type: none; }
+
+  #primaryNavigation ul li {
+    list-style: none; }
+
+  #primaryNavigation li {
+    margin: 5%;
+    list-style: none; }
+
+  a.nestedLI {
+    text-decoration: none;
+    color: white;
+    list-style: none; }
+
+  #primaryNavigation li.parent > a::after {
+    content: '\25BC';
+    font-size: .75rem;
+    color: white;
+    float: right; }
+
+  #primaryNavigation li ul {
+    display: none; }
+
+  #primaryNavigation li:hover ul {
+    display: block; }
+
+  button#hamburgerBtn {
+    color: white;
+    background: #ff7b00;
+    border: none;
+    padding: 1rem;
+    padding-bottom: 5px;
+    margin: 0; }
+    button#hamburgerBtn i {
+      margin-right: 10px; }
+
+  nav#navigation {
+    background: #ff7b00; } }
+/* medium screens media query */
+@media only screen and (max-width: 1200px) {
+  body {
+    background-color: lightblue; }
+
+  ul#primaryNavigation {
+    height: auto; } }
+/* Header Styling */
 body {
   margin: 0 auto;
   box-sizing: border-box; }
@@ -37,65 +113,3 @@ div.phoneNum {
 /* Footer Styling  */
 footer {
   background: rgba(255, 189, 128, 0.568); }
-
-/* small screens media query */
-@media only screen and (max-width: 600px) {
-  figure#logo {
-    margin-left: 5%; }
-
-  a#telephoneNum {
-    font-size: 1rem; }
-
-  #hamburgerBtn span:nth-child(1) {
-    display: block; }
-
-  #hamburgerBtn span:nth-child(2) {
-    display: none; }
-
-  #hamburgerBtn.open span:nth-child(1) {
-    display: none; }
-
-  #hamburgerBtn.open span:nth-child(2) {
-    display: block; }
-
-  ul#primaryNavigation {
-    height: 0;
-    overflow: hidden;
-    background: #ff7b00;
-    padding: 2%; }
-
-  #primaryNavigation li a {
-    text-decoration: none;
-    color: white;
-    list-style-type: none; }
-
-  #primaryNavigation ul li {
-    list-style: none; }
-
-  #primaryNavigation li {
-    margin: 5%;
-    list-style: none; }
-
-  a.nestedLI {
-    text-decoration: none;
-    color: white;
-    list-style: none; }
-
-  #primaryNavigation li.parent > a::after {
-    content: '\25BC';
-    font-size: .75rem;
-    color: white;
-    float: right; }
-
-  #primaryNavigation li ul {
-    display: none; }
-
-  #primaryNavigation li:hover ul {
-    display: block; } }
-/* medium screens media query */
-@media only screen and (max-width: 1200px) {
-  body {
-    background-color: lightblue; }
-
-  ul#primaryNavigation {
-    height: auto; } }
