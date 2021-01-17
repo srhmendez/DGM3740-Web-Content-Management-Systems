@@ -101,7 +101,7 @@ ul#primaryNavigation {
   margin-top: 0;
   padding-left: 0;
   margin-left: 0;
-  height: 2rem; }
+  margin-bottom: 0; }
 
 #primaryNavigation li a {
   text-decoration: none;
@@ -132,10 +132,10 @@ li a.nestedLI {
   align-items: center; }
 
 #primaryNavigation li ul {
-  display: none; }
+  display: block; }
 
 #primaryNavigation li:hover ul {
-  display: block; }
+  display: none; }
 
 nav#navigation {
   background: #ff7b00; }
@@ -149,7 +149,6 @@ li.parent a::after {
   display: flex; }
 
 ul {
-  margin: 0 0 0 1vw;
   padding: 0;
   background-color: orange; }
 
@@ -163,6 +162,13 @@ ul > li {
 
 ul > li > a {
   padding-right: 2%; }
+
+ul li a {
+  display: block;
+  background: none;
+  font-size: .9em;
+  padding: .9em .9em;
+  text-decoration: none; }
 
 button#hamburgerBtn {
   visibility: hidden; }
