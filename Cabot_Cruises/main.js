@@ -1,14 +1,13 @@
 
-// This Function toggles between adding and removing a class of open to both the hamburger button element and the primary navigation element in the HTML
-function toggleHamburgerMenu(){
-    document.getElementById('hamburgerBtn').classList.toggle('open');
-    document.getElementById('primaryNavigation').classList.toggle('open');
-};
 
-// targeting the Hamburger Button in the HTML
+//This function toggles the hamburger menu closed and expanded
+function toggleMenu() {
+    document.getElementById("hamburgerBtn").classList.toggle('open')
+    document.getElementById("primaryNav").classList.toggle('open');
+}
 
-let hamburgerButton = getElementById('hamburgerBtn');
+//assigning the variable to the DOM hamburger button element
+var x = document.getElementById('hamburgerBtn');
 
-// Assigning a click action to hamburger button
-
-hamburgerButton.onclick = toggleHamburgerMenu();
+//On click toggle the menu open and closed; calling the function
+x.onclick = toggleMenu;
