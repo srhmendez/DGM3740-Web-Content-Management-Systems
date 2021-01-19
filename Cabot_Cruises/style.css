@@ -523,7 +523,14 @@ a#telephoneNum {
     display: block; }
 
   #primaryNav ul.nestedul li {
-    padding: 1rem; } }
+    padding: 1rem; }
+
+  div#hero {
+    max-width: 100%; }
+
+  img#heroImg {
+    max-width: 100%;
+    height: auto; } }
 /* End Mobile Styles */
 /*End of the Medium Query*/
 /*End of the Medium Query*/
