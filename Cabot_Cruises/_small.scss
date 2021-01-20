@@ -177,6 +177,10 @@ picture img{
   margin-top:10px;
   width:100%;
 }
+//Dots for slideshow
+.slick-dots li button:before {
+  font-size:2rem;
+}
 
 /* End Mobile Styles */
 }

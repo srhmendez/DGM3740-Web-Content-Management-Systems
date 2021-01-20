@@ -742,6 +742,9 @@ a#telephoneNum {
     margin-top: 10px;
     width: 100%; }
 
+  .slick-dots li button:before {
+    font-size: 2rem; }
+
   /* End Mobile Styles */ }
 /* End Mobile Styles */
 /*End of the Medium Query*/
