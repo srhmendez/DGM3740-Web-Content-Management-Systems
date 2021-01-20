@@ -1,3 +1,9 @@
+// Body
+body{
+  margin:0 auto;
+  max-width:1200px;
+}
+
 /* Header Rules */
 
 header {
@@ -5,7 +11,7 @@ header {
   background-color: $blue;
   display:flex;
   flex-direction: column;
-  max-width: 64rem;
+  max-width: 1200px;
   height:11rem;
   width:100%;
 }
@@ -162,13 +168,16 @@ a#telephoneNum{
 
 
 // Starting Of Hero Image Code 
-div#hero{
-  max-width:100%;
+
+picture{
+  position: relative;
 }
-img#heroImg{
-  max-width:100%;
-  height:auto;
-  
+picture img{
+  margin:0 auto;
+  margin-top:10px;
+  width:100%;
 }
+
+/* End Mobile Styles */
 }
 /* End Mobile Styles */

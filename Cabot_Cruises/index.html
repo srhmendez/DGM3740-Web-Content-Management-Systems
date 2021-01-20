@@ -6,12 +6,6 @@
 
     <link rel="stylesheet" href="style.css">
 
-     <!-- Add the new slick-theme.css if you want the default styling -->
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-     <!-- CDN Link for Slick Carousel -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-
-
     <title>Cabot Cruizes</title>
 </head>
 <body>
@@ -49,19 +43,27 @@
         </ul>
     </nav>
     <section class="hero">
-        <div id="hero" class="hero-large">
-            <div>
-                <img src="/Cabot_Cruises/Images/Cruise-Hero-Image.jpg" alt="Cruise ship going through ocean at sunset" class="heroImg">
-            </div>
-            <div>
-                <img src="/Cabot_Cruises/Images/Family-in-ocean-hero.jpg" alt="Family of Three playing in ocean" class="heroImg">
-            </div>
-            <div>
-                <img src="/Cabot_Cruises/Images/Feet-up-hero.jpg" alt="Man with his feet up at the beach during sunset" class="heroImg">
-            </div>
-            <div>
-                <img src="/Cabot_Cruises/Images/Party-hero.jpg" alt="Group of friends enjoying drinks at the pier" class="heroImg">
-            </div>
+        <div class="heroCaro">
+            <picture class="sliderImageDiv">
+                <source media="(max-width:480px)" srcset="/Cabot_Cruises/Images/Square-Cruise-Hero-Image.jpg">
+                <source media="(min-width:481px)" srcset="/Cabot_Cruises/Images/Cruise-Hero-Image.jpg">
+                <img src="/Cabot_Cruises/Images/Cruise-Hero-Image.jpg" alt="Cruise ship sails through the ocean at sunset">
+            </picture>
+            <picture class="sliderImageDiv">
+                <source media="(max-width:480px)" srcset="/Cabot_Cruises/Images/Square-Family-in-ocean-hero.jpg">
+                <source media="(min-width:481px)" srcset="/Cabot_Cruises/Images/Family-in-ocean-hero.jpg">
+                <img src="/Cabot_Cruises/Images/Family-in-ocean-hero.jpg" alt="A man, woman, and child hold hands as they run through a wave in the ocean">
+            </picture>
+            <picture class="sliderImageDiv">
+                <source media="(max-width:480px)" srcset="/Cabot_Cruises/Images/Square-Feet-up-hero.jpg">
+                <source media="(min-width:481px)" srcset="/Cabot_Cruises/Images/Feet-up-hero.jpg">
+                <img src="/Cabot_Cruises/Images/Feet-up-hero.jpg" alt="A man has his feet up on a table overlooking the sunset on the ocean's horizon">
+            </picture>
+            <picture class="sliderImageDiv">
+                <source media="(max-width:480px)" srcset="/Cabot_Cruises/Images/Square-Party-hero.jpg">
+                <source media="(min-width:481px)" srcset="/Cabot_Cruises/Images/Party-hero.jpg">
+                <img src="/Cabot_Cruises/Images/Party-hero.jpg" alt="A group of friends enjoy drinks on the pier near the ocean.">
+            </picture>
         </div>
     </section>
     <section class="featured">
@@ -94,11 +96,9 @@
         </footer>
     </section>
     
-    <script src="/Cabot_Cruises/main.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type='text/javascript' src="../Cabot_Cruises/slick/slick.min.js"></script>
+    <script src="/Cabot_Cruises/main.js"></script>
 </body>
 </html>
