@@ -4,29 +4,45 @@ header {
     display:flex;
     flex-direction: row;
     height:20rem;
-  }
-div#logo.logo{
+}
+figure#logo{
     width:100%;
+}
+div#logo.logo{
     display:flex;
-    flex-direction: row;
+    align-items: center;
+    width:30%;
+    margin:0;
 }
 div#header{
     width:100%;
+    display:flex;
     flex-direction: row;
+    justify-content: space-between;
 }
-  img#logo{
-    margin-top:6vh;
-    width:300px;
-    margin-left:2%;
-  }
-  header p {
+img#logo{
+    margin:0;
+    width:100%;
+    margin-left:5%;
+}
+header p {
     text-align: center;
     color: $menuColor;
     font-size: 1.2rem;
-  }
-  a#telephoneNum{
+}
+div.phoneNum{
+    display:flex;
+    align-items: center;
+    width:30%;
+}
+a#telephoneNum{
     visibility: visible;
-  }
+    text-decoration: none;
+    p {
+        margin:0;
+        font-size:3rem;
+    }
+}
 
 
 //Featured Images

@@ -797,27 +797,42 @@ a#telephoneNum {
     flex-direction: row;
     height: 20rem; }
 
+  figure#logo {
+    width: 100%; }
+
   div#logo.logo {
-    width: 100%;
     display: flex;
-    flex-direction: row; }
+    align-items: center;
+    width: 30%;
+    margin: 0; }
 
   div#header {
     width: 100%;
-    flex-direction: row; }
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
 
   img#logo {
-    margin-top: 6vh;
-    width: 300px;
-    margin-left: 2%; }
+    margin: 0;
+    width: 100%;
+    margin-left: 5%; }
 
   header p {
     text-align: center;
     color: #0887c2;
     font-size: 1.2rem; }
 
+  div.phoneNum {
+    display: flex;
+    align-items: center;
+    width: 30%; }
+
   a#telephoneNum {
-    visibility: visible; }
+    visibility: visible;
+    text-decoration: none; }
+    a#telephoneNum p {
+      margin: 0;
+      font-size: 3rem; }
 
   h3 {
     font-size: 2rem; } }
