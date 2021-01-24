@@ -1,0 +1,39 @@
+/* Header Rules */
+
+header {
+    display:flex;
+    flex-direction: row;
+    height:20rem;
+  }
+div#logo.logo{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+}
+div#header{
+    width:100%;
+    flex-direction: row;
+}
+  img#logo{
+    margin-top:6vh;
+    width:300px;
+    margin-left:2%;
+  }
+  header p {
+    text-align: center;
+    color: $menuColor;
+    font-size: 1.2rem;
+  }
+  a#telephoneNum{
+    visibility: visible;
+  }
+
+
+//Featured Images
+
+
+
+//Image Heading Overlays
+h3{
+    font-size:2rem;
+}

@@ -19,12 +19,12 @@ $(document).ready(function(){
         dots:true,
         arrows:false,
         infinite: true,
-        speed: 300,
+        speed: 3,
         slidesToShow: 1,
         adaptiveHeight: true,
-        cssEase: 'ease-out',
+        cssEase: 'fade-out',
         autoplay:true,
-        autoplaySpeed:30000
+        autoplaySpeed:2500
     });
   });
 
