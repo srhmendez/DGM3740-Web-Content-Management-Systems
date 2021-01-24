@@ -8,7 +8,7 @@ body{
 
 header {
   margin:0 auto;
-  background-color: $blue;
+  background-color: lighten($color: $menuColor, $amount: 50);
   display:flex;
   flex-direction: column;
   max-width: 1200px;
@@ -228,6 +228,17 @@ figcaption{
   position: relative;
   
 }
+//FOOTER
+
+footer{
+  background: lighten($color:$menuColor, $amount: 50);
+}
+
+
+
+
+
+
 
 /* End Mobile Styles */
 }

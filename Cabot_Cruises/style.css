@@ -601,7 +601,7 @@ body {
 /* Header Rules */
 header {
   margin: 0 auto;
-  background-color: #b6ddff;
+  background-color: #ccedfd;
   display: flex;
   flex-direction: column;
   max-width: 1200px;
@@ -787,6 +787,9 @@ a#telephoneNum {
 
   figcaption {
     position: relative; }
+
+  footer {
+    background: #ccedfd; }
 
   /* End Mobile Styles */ }
 /* End Mobile Styles */
