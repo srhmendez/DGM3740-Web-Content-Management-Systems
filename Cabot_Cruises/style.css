@@ -655,6 +655,10 @@ a#telephoneNum {
     height: 2.75rem;
     background-color: #0887c2; }
 
+  #hamburgerBtn:focus {
+    outline: none;
+    box-shadow: none; }
+
   #hamburgerBtn {
     padding-top: 10px;
     display: flex;

@@ -76,6 +76,10 @@ a#telephoneNum{
   }
   
 //Styles the clickable hamburger button
+#hamburgerBtn:focus {
+  outline: none;
+  box-shadow: none;
+}
 #hamburgerBtn {
   padding-top:10px;
   display: flex;
