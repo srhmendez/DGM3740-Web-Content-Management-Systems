@@ -183,6 +183,52 @@ picture img{
   font-size:2rem;
 }
 
+//Featured Blog Posts
+h1{
+  font-family: Helvetica, sans-serif;
+  margin:.4rem;
+  margin-top:5rem;
+}
+picture img{
+  margin:0;
+  background: $menuColor;
+}
+.featuredImages{
+  display:flex;
+  width:100%;
+  max-width:1200px;
+  flex-wrap: wrap;
+}
+.featuredImage{
+  display:flex;
+  position: relative;
+  flex-direction: column;
+  width:48%;
+  margin:.5% 1%;
+}
+h3.blogTitle{
+  padding:0;
+  margin:0;
+  position: absolute;
+  bottom:30px;
+  color:$menuTextColor;
+  text-shadow: black 3px 3px 6px;
+  background:rgba(65, 65, 65, 0.103);
+  width:100%;
+  word-wrap: inherit;
+  padding:2%;
+}
+h4{
+  margin:0;
+  background:$menuColor;
+  padding:2%;
+  color: $menuTextColor;
+}
+figcaption{
+  position: relative;
+  
+}
+
 /* End Mobile Styles */
 }
 /* End Mobile Styles */
