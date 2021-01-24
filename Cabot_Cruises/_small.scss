@@ -12,12 +12,11 @@ header {
   display:flex;
   flex-direction: column;
   max-width: 1200px;
-  height:11rem;
+  height:13rem;
   width:100%;
 }
 div#logo.logo{
   width:100%;
-
 }
 figure#logo{
   width:100%;
@@ -38,6 +37,7 @@ header p {
 }
 a#telephoneNum{
   visibility: hidden;
+  border-collapse: collapse;
 }
 
 /*     NAVIGATION CSS RULES    */
@@ -77,8 +77,9 @@ a#telephoneNum{
   
 //Styles the clickable hamburger button
 #hamburgerBtn {
-  display: block;
-  width: 7rem;
+  padding-top:10px;
+  display: flex;
+  width: 15rem;
       height: 2.75rem;
       background: none;
       color: $menuTextColor;
@@ -88,14 +89,37 @@ a#telephoneNum{
       text-align: left;
       //used to enlarge an entity to match any words that may also be used, like OPEN
       i {font-size: 1.4rem; font-style: normal;}
+      span {
+        width:150%;
+        display:flex;
+        flex-direction: row;
+      }
+      p.openClose{
+        margin:0;
+        margin-block-end:0;
+        width:40%;
+
+      }
       
 }
   
 // These lines show and hide the two alternate icons for the open and close hamburger
-#hamburgerBtn.open span:nth-child(1) {display: block;}
+#hamburgerBtn.open span:nth-child(1) {
+  display: block;
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
 #hamburgerBtn.open span:nth-child(2) {display: none;}
 #hamburgerBtn span:nth-child(1) {display: none;}
-#hamburgerBtn span:nth-child(2) {display: block;}
+#hamburgerBtn span:nth-child(2) {
+  display: block;
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
 
 
 // unordered list Navigation Bar --------------------------------------------------------
@@ -132,7 +156,7 @@ a#telephoneNum{
 }
 
 // Toggle the navigation bar to expand down when the javascript assigns the "open" class
-#primaryNav.open {height: auto;}
+#primaryNav.open {height: auto; z-index: 1;}
 
 // .parent class indicates dropdown by adding a down arrow to the parent list item 
 #primaryNav li.parent > a::after {
@@ -169,6 +193,9 @@ a#telephoneNum{
 
 // Starting Of Hero Image Code 
 
+section.hero{
+  z-index: 2;
+}
 picture{
   position: relative;
 }
@@ -233,7 +260,9 @@ figcaption{
 footer{
   background: lighten($color:$menuColor, $amount: 50);
 }
-
+footer h1{
+  color: $footerText;
+}
 
 
 

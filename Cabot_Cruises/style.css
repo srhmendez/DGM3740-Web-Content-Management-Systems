@@ -605,7 +605,7 @@ header {
   display: flex;
   flex-direction: column;
   max-width: 1200px;
-  height: 11rem;
+  height: 13rem;
   width: 100%; }
 
 div#logo.logo {
@@ -628,7 +628,8 @@ header p {
   font-size: 1.2rem; }
 
 a#telephoneNum {
-  visibility: hidden; }
+  visibility: hidden;
+  border-collapse: collapse; }
 
 /*     NAVIGATION CSS RULES    */
 /*  apply a natural box layout model to all elements  */
@@ -655,8 +656,9 @@ a#telephoneNum {
     background-color: #0887c2; }
 
   #hamburgerBtn {
-    display: block;
-    width: 7rem;
+    padding-top: 10px;
+    display: flex;
+    width: 15rem;
     height: 2.75rem;
     background: none;
     color: rgba(255, 255, 255, 0.9);
@@ -667,9 +669,21 @@ a#telephoneNum {
     #hamburgerBtn i {
       font-size: 1.4rem;
       font-style: normal; }
+    #hamburgerBtn span {
+      width: 150%;
+      display: flex;
+      flex-direction: row; }
+    #hamburgerBtn p.openClose {
+      margin: 0;
+      margin-block-end: 0;
+      width: 40%; }
 
   #hamburgerBtn.open span:nth-child(1) {
-    display: block; }
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
 
   #hamburgerBtn.open span:nth-child(2) {
     display: none; }
@@ -678,7 +692,11 @@ a#telephoneNum {
     display: none; }
 
   #hamburgerBtn span:nth-child(2) {
-    display: block; }
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
 
   #primaryNav {
     height: 0;
@@ -708,7 +726,8 @@ a#telephoneNum {
     background-color: rgba(0, 0, 0, 0.5); }
 
   #primaryNav.open {
-    height: auto; }
+    height: auto;
+    z-index: 1; }
 
   #primaryNav li.parent > a::after {
     font-size: .75rem;
@@ -733,6 +752,9 @@ a#telephoneNum {
 
   #primaryNav ul.nestedul li {
     padding: 1rem; }
+
+  section.hero {
+    z-index: 2; }
 
   picture {
     position: relative; }
@@ -790,6 +812,9 @@ a#telephoneNum {
 
   footer {
     background: #ccedfd; }
+
+  footer h1 {
+    color: #5c5c5c; }
 
   /* End Mobile Styles */ }
 /* End Mobile Styles */
