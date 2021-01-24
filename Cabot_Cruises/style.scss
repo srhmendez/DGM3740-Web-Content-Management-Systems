@@ -7,12 +7,12 @@
 
 @import "_small";
 
-@media only screen and (min-width: 35rem) {
+@media only screen and (min-width: 767px) {
     @import "_medium";
 
 } /*End of the Medium Query*/
 
-@media only screen and (min-width: 65rem) {
+@media only screen and (min-width: 1025px) {
     @import "_large";
 
 } /*End of the Medium Query*/ 

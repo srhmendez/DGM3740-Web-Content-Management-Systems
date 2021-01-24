@@ -1,3 +1,32 @@
+
+//Hamburger Menu
+nav#nav.clearfix{
+    height:6rem;
+}
+button#hamburgerBtn{
+    width:50%;
+    height:6rem;
+}
+button#hamburgerBtn span:nth-child(2){
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+span p.openClose{
+    font-size:150%;
+    width:70%;
+    margin:0;
+    margin-top:10px;
+    margin-block-end: 0;
+
+}
+#hamburgerBtn span i {
+    font-size:300%;
+    width:12%;
+    bottom:5px;
+}
+
 /* Header Rules */
 
 header {
@@ -11,7 +40,7 @@ figure#logo{
 div#logo.logo{
     display:flex;
     align-items: center;
-    width:30%;
+    width:40%;
     margin:0;
 }
 div#header{
@@ -34,22 +63,65 @@ div.phoneNum{
     display:flex;
     align-items: center;
     width:30%;
+    margin-left:5%;
+    margin-right:5%;
 }
 a#telephoneNum{
     visibility: visible;
     text-decoration: none;
+    background:$menuColor;
+    border-radius:10px;
+    width:100%;
     p {
+        padding:3%;
+        color: $menuTextColor;
         margin:0;
-        font-size:3rem;
+        font-size:150%;
     }
 }
 
 
 //Featured Images
 
+.featuredImages{
+    display:flex;
+    justify-content: flex-start;
+    width:99%;
+    max-width:1200px;
+    flex-wrap: wrap;
+    margin:0 auto;
+}
+picture.featuredImage{
+    display:flex;
+    position: relative;
+    flex-direction: column;
+    width:31%;
+    margin:.5% 1.1%;
+    img{
+        margin:1%;
+    }
+    figcaption{
+        margin-left:1%;
+        bottom:10px;
+    }
+}
+
+
+//Recent Blog Posts Header
+h1{
+    font-size:2.5rem;
+}
 
 
 //Image Heading Overlays
-h3{
+h3.blogTitle{
     font-size:2rem;
+    bottom:35px;
+}
+
+//Fig caption 
+figcaption{
+    h4{
+    font-size:1rem;
+    }
 }
