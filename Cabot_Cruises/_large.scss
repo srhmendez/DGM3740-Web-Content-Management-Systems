@@ -171,7 +171,28 @@ h1{
   }
   
 //FOOTER
-
+footer div#footerContainer{
+    display:grid;
+    grid-template-columns: auto auto 33%;
+    grid-template-rows: auto;
+}
+footer div#footerContainer div.address{
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+div.newsletter{
+    grid-column: 2 / 3;
+    grid-row: 1;
+    width:25rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left:1rem;
+}
+div.why{
+    grid-column: 3 / 4;
+    grid-row: 1;
+}
 footer{
     background: lighten($color:$menuColor, $amount: 50);
     margin-top:2rem;
@@ -182,6 +203,7 @@ footer{
     padding-top:2rem;
     margin-left:2%;
     font-family: $font;
+    font-size:1.5rem;
   
   }
   footer p.copyright{
@@ -190,6 +212,7 @@ footer{
     margin-bottom:0;
     padding-bottom:1rem;
     font-family: $font;
+    font-size:1rem;
   
   }
   p.footerText{
@@ -216,23 +239,5 @@ footer{
       margin-left:10px;
       font-family: $font;
   
-    }
-    div#footerContainer{
-        display:grid;
-        grid-template-columns: 33% 33% 33%;
-        grid-template-rows: auto;
-        grid-auto-flow: row;
-    }
-    div.address{
-        grid-column: 1 / 2;
-        grid-row: 1;
-    }
-    div.newsletter{
-        grid-column: 2 / 3;
-        grid-row: 1;
-    }
-    div.why{
-        grid-column:3 / 4;
-        grid-row:1;
     }
   }
