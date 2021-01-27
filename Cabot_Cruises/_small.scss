@@ -39,6 +39,19 @@ a#telephoneNum{
   visibility: hidden;
   border-collapse: collapse;
 }
+picture.featuredImage img{
+  opacity: 75%;
+}
+picture.featuredImage img:hover{
+  opacity: 100%;
+}
+div#input button.subscribe:active{
+  background: $menuNames;
+}
+a.addressLink{
+  text-decoration: none;
+  color:black;
+}
 
 /*     NAVIGATION CSS RULES    */
 

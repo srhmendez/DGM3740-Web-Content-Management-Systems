@@ -632,6 +632,19 @@ a#telephoneNum {
   visibility: hidden;
   border-collapse: collapse; }
 
+picture.featuredImage img {
+  opacity: 75%; }
+
+picture.featuredImage img:hover {
+  opacity: 100%; }
+
+div#input button.subscribe:active {
+  background: #0011ff; }
+
+a.addressLink {
+  text-decoration: none;
+  color: black; }
+
 /*     NAVIGATION CSS RULES    */
 /*  apply a natural box layout model to all elements  */
 * {
@@ -1182,7 +1195,7 @@ a#telephoneNum {
     color: #5c5c5c;
     margin: 0;
     padding-top: 2rem;
-    margin-left: 2%;
+    margin-left: 5%;
     font-family: "Playfair Display", serif;
     font-size: 1.5rem; }
 
@@ -1198,6 +1211,7 @@ a#telephoneNum {
     font-size: 1.2rem;
     padding: 2%;
     margin: 0;
+    margin-left: 3%;
     font-family: "Playfair Display", serif; }
 
   div#input {
