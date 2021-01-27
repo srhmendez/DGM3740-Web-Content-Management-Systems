@@ -7,6 +7,7 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -681,7 +682,8 @@ a#telephoneNum {
       margin: 0;
       margin-left: 10px;
       margin-block-end: 0;
-      width: 40%; }
+      width: 40%;
+      font-family: "Playfair Display", serif; }
 
   #hamburgerBtn.open span:nth-child(1) {
     display: block;
@@ -773,7 +775,7 @@ a#telephoneNum {
     font-size: 2rem; }
 
   h1 {
-    font-family: Helvetica, sans-serif;
+    font-family: "Playfair Display", serif;
     margin: .4rem;
     margin-top: 5rem; }
 
@@ -804,22 +806,59 @@ a#telephoneNum {
     background: rgba(65, 65, 65, 0.103);
     width: 100%;
     word-wrap: inherit;
-    padding: 2%; }
+    padding: 2%;
+    font-family: "Playfair Display", serif; }
 
   h4 {
     margin: 0;
     background: #0887c2;
     padding: 2%;
-    color: rgba(255, 255, 255, 0.9); }
+    color: rgba(255, 255, 255, 0.9);
+    font-family: "Playfair Display", serif; }
 
   figcaption {
     position: relative; }
 
   footer {
-    background: #ccedfd; }
+    background: #ccedfd;
+    margin-top: 2rem; }
 
   footer h1 {
-    color: #5c5c5c; }
+    color: #5c5c5c;
+    margin: 0;
+    padding-top: 2rem;
+    margin-left: 2%;
+    font-family: "Playfair Display", serif; }
+
+  footer p.copyright {
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+    font-family: "Playfair Display", serif; }
+
+  p.footerText {
+    font-size: 1.2rem;
+    padding: 2%;
+    margin: 0;
+    font-family: "Playfair Display", serif; }
+
+  div#input {
+    display: flex;
+    justify-content: center; }
+    div#input input {
+      padding: 15px;
+      width: 72%;
+      font-family: "Playfair Display", serif; }
+    div#input button {
+      background: #6670ff;
+      box-shadow: none;
+      outline: none;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      margin-left: 10px;
+      font-family: "Playfair Display", serif; }
 
   /* End Mobile Styles */ }
 /* End Mobile Styles */

@@ -103,6 +103,7 @@ a#telephoneNum{
         margin-left:10px;
         margin-block-end:0;
         width:40%;
+        font-family: $font;
 
       }
       
@@ -217,7 +218,7 @@ picture img{
 
 //Featured Blog Posts
 h1{
-  font-family: Helvetica, sans-serif;
+  font-family: $font;
   margin:.4rem;
   margin-top:5rem;
 }
@@ -249,12 +250,16 @@ h3.blogTitle{
   width:100%;
   word-wrap: inherit;
   padding:2%;
+  font-family: $font;
+
 }
 h4{
   margin:0;
   background:$menuColor;
   padding:2%;
   color: $menuTextColor;
+  font-family: $font;
+
 }
 figcaption{
   position: relative;
@@ -264,13 +269,50 @@ figcaption{
 
 footer{
   background: lighten($color:$menuColor, $amount: 50);
+  margin-top:2rem;
 }
 footer h1{
   color: $footerText;
+  margin:0;
+  padding-top:2rem;
+  margin-left:2%;
+  font-family: $font;
+
 }
+footer p.copyright{
+  text-align: center;
+  padding-top:2rem;
+  margin-bottom:0;
+  padding-bottom:1rem;
+  font-family: $font;
 
+}
+p.footerText{
+  font-size:1.2rem;
+  padding:2%;
+  margin:0;
+  font-family: $font;
+}
+div#input{
+  display:flex;
+  justify-content: center;
+  input{
+    padding:15px;
+    width:72%;
+    font-family: $font;
+  }
+  button{
+    background: lighten($color: $menuNames, $amount: 20);
+    box-shadow: none;
+    outline: none;
+    color:white;
+    border:none;
+    border-radius:10px;
+    margin-left:10px;
+    font-family: $font;
 
-
+  }
+}
 
 
 
