@@ -73,6 +73,8 @@ a#telephoneNum{
       width: 100%;
       height: 2.75rem;
       background-color: $menuColor;
+      display:flex;
+      justify-content: space-around;
   }
   
 //Styles the clickable hamburger button
@@ -81,17 +83,17 @@ a#telephoneNum{
   box-shadow: none;
 }
 #hamburgerBtn {
+  margin-right:0;
   padding-top:10px;
   display: flex;
-  width: 15rem;
-      height: 2.75rem;
-      background: none;
-      color: $menuTextColor;
+  height: 2.75rem;
+  background: none;
+  color: $menuTextColor;
   border: 0 none;
-      font-size: 1.3rem;
-      font-weight: normal;
-      text-align: left;
-      //used to enlarge an entity to match any words that may also be used, like OPEN
+  font-size: 1.3rem;
+  font-weight: normal;
+  text-align: left;
+  //used to enlarge an entity to match any words that may also be used, like OPEN
       i {font-size: 1.4rem; font-style: normal;}
       span {
         width:150%;
@@ -130,15 +132,15 @@ a#telephoneNum{
 
 // unordered list Navigation Bar --------------------------------------------------------
 #primaryNav {
-      height: 0; //hides the nav links 
-      overflow: hidden;
+  height: 0; //hides the nav links 
+  overflow: hidden;
   width: 100%;
   background-color: $menuColor;
   margin: 0;
   padding: 0;
   z-index: 998; // places the links above the page content
-      font-family: Verdana;
-      font-weight: normal;
+  font-family: Verdana;
+  font-weight: normal;
 }
   
 // if the site has a class of active added to any list itme then it is darkened for "Wayfinding"
@@ -196,6 +198,21 @@ a#telephoneNum{
  padding:1rem;
 }
 
+//search bar in nav
+div.search{
+  padding-top:1.5%;
+  display:flex;
+  flex-direction: row;
+  margin-left:15%;
+  min-width:15rem;
+  input{
+    width:80%;
+    height:2rem;
+  }
+  button{
+    height:2rem;
+  }
+}
 
 // Starting Of Hero Image Code 
 
