@@ -20,6 +20,7 @@ nav#nav.clearfix{
 }
 ul#primaryNav{
     left:0;
+    margin-left:0;
     height:2.7rem;
 }
 nav{
@@ -31,7 +32,7 @@ nav{
     height:2rem;
 
 // add space to the left to match the other left side elements DESIGN: Alignment
-    ul {
+    ul#primaryNav {
         margin: 0;
         padding: 0rem;
     }

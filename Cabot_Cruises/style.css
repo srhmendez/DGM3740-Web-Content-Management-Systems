@@ -1055,7 +1055,7 @@ a.addressLink {
     max-width: 1200px;
     margin: 0 auto;
     height: 2rem; }
-    nav ul {
+    nav ul#primaryNav {
       margin: 0;
       padding: 0rem; }
     nav ul > li {
