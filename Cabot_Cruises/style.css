@@ -595,10 +595,6 @@ template {
 .slick-arrow.slick-hidden {
   display: none; }
 
-body {
-  margin: 0 auto;
-  max-width: 1200px; }
-
 /* Header Rules */
 header {
   margin: 0 auto;
@@ -620,6 +616,7 @@ figure#logo {
   margin: 0 auto; }
 
 img#logo {
+  z-index: 2;
   margin-top: 4vh;
   width: 70%; }
 
@@ -645,6 +642,10 @@ a.addressLink {
   text-decoration: none;
   color: black; }
 
+body {
+  margin: 0 auto;
+  max-width: 1200px; }
+
 /*     NAVIGATION CSS RULES    */
 /*  apply a natural box layout model to all elements  */
 * {
@@ -669,13 +670,14 @@ a.addressLink {
     height: 2.75rem;
     background-color: #0887c2;
     display: flex;
-    justify-content: space-around; }
+    justify-content: column; }
 
   #hamburgerBtn:focus {
     outline: none;
     box-shadow: none; }
 
   #hamburgerBtn {
+    margin-left: 2%;
     margin-right: 0;
     padding-top: 10px;
     display: flex;
@@ -705,7 +707,8 @@ a.addressLink {
     width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center; }
+    align-items: center;
+    z-index: 1; }
 
   #hamburgerBtn.open span:nth-child(2) {
     display: none; }
@@ -718,7 +721,13 @@ a.addressLink {
     width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center; }
+    align-items: center;
+    z-index: 1; }
+
+  nav#nav {
+    display: flex;
+    flex-direction: column;
+    z-index: 1; }
 
   #primaryNav {
     height: 0;
@@ -749,7 +758,7 @@ a.addressLink {
 
   #primaryNav.open {
     height: auto;
-    z-index: 1; }
+    z-index: 998; }
 
   #primaryNav li.parent > a::after {
     font-size: .75rem;
@@ -775,14 +784,16 @@ a.addressLink {
   #primaryNav ul.nestedul li {
     padding: 1rem; }
 
+  div#mobileBar {
+    display: flex;
+    flex-direction: row; }
+
   div.search {
     padding-top: 1.5%;
-    display: flex;
-    flex-direction: row;
-    margin-left: 15%;
+    margin-left: 10%;
     min-width: 15rem; }
     div.search input {
-      width: 80%;
+      width: 70%;
       height: 2rem; }
     div.search button {
       height: 2rem; }
@@ -916,7 +927,7 @@ a.addressLink {
     bottom: 5px; }
 
   div.search {
-    margin-left: 50%;
+    margin-left: 58%;
     padding-top: 2rem; }
 
   /* Header Rules */
@@ -1046,6 +1057,7 @@ a.addressLink {
 
   ul#primaryNav {
     left: 0;
+    margin-left: 0;
     height: 2.7rem; }
 
   nav {
