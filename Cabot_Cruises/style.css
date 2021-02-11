@@ -616,9 +616,8 @@ figure#logo {
   margin: 0 auto; }
 
 img#logo {
-  z-index: 2;
   margin-top: 4vh;
-  width: 70%; }
+  width: 50%; }
 
 header p {
   text-align: center;
@@ -641,6 +640,18 @@ div#input button.subscribe:active {
 a.addressLink {
   text-decoration: none;
   color: black; }
+
+div.social {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 300px;
+  padding-bottom: 50px; }
+
+.social {
+  font-size: 2rem;
+  color: #ff7b00; }
 
 body {
   margin: 0 auto;
@@ -758,7 +769,9 @@ body {
 
   #primaryNav.open {
     height: auto;
-    z-index: 998; }
+    z-index: 998;
+    position: absolute;
+    margin-top: 10%; }
 
   #primaryNav li.parent > a::after {
     font-size: .75rem;
@@ -790,6 +803,7 @@ body {
 
   div.search {
     padding-top: 1.5%;
+    padding-left: 15%;
     margin-left: 10%;
     min-width: 15rem; }
     div.search input {
@@ -815,7 +829,8 @@ body {
   h1 {
     font-family: "Playfair Display", serif;
     margin: .4rem;
-    margin-top: 5rem; }
+    margin-top: 5rem;
+    font-size: 1.2rem; }
 
   picture img {
     margin: 0;
@@ -859,12 +874,13 @@ body {
 
   footer {
     background: #ccedfd;
-    margin-top: 2rem; }
+    margin-top: 2rem;
+    padding: 2%; }
 
   footer h1 {
     color: #5c5c5c;
     margin: 0;
-    padding-top: 2rem;
+    padding-top: .5rem;
     margin-left: 2%;
     font-family: "Playfair Display", serif; }
 
@@ -876,7 +892,7 @@ body {
     font-family: "Playfair Display", serif; }
 
   p.footerText {
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 2%;
     margin: 0;
     font-family: "Playfair Display", serif; }
@@ -915,7 +931,8 @@ body {
     align-items: center; }
 
   span p.openClose {
-    font-size: 150%;
+    font-size: 100%;
+    padding-top: 2%;
     width: 70%;
     margin: 0;
     margin-top: 10px;
@@ -923,11 +940,11 @@ body {
 
   #hamburgerBtn span i {
     font-size: 300%;
-    width: 30%;
+    width: 10%;
     bottom: 5px; }
 
   div.search {
-    margin-left: 58%;
+    margin-left: 10%;
     padding-top: 2rem; }
 
   /* Header Rules */
@@ -1007,7 +1024,7 @@ body {
       bottom: 10px; }
 
   h1 {
-    font-size: 1.8rem; }
+    font-size: 1.2rem; }
 
   h3.blogTitle {
     font-size: 1.5rem;
@@ -1026,10 +1043,12 @@ body {
     grid-auto-flow: row; }
 
   div.address {
+    padding-left: 2%;
     grid-column: 1 / 2;
     grid-row: 1; }
 
   div.newsletter {
+    padding-right: 4%;
     grid-column: 2 / 3;
     grid-row: 1; }
 
@@ -1045,7 +1064,21 @@ body {
   div.search {
     padding: 0;
     margin-top: 10px;
-    margin-right: 2rem; }
+    margin-right: 2rem;
+    width: 100%; }
+    div.search input {
+      width: 200px; }
+
+  nav#nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between; }
+
+  div#mobileBar {
+    width: 30%;
+    display: flex;
+    flex-direction: row; }
 
   #primaryNav {
     display: block;
@@ -1195,6 +1228,9 @@ body {
     justify-content: flex-start;
     margin-left: 1rem; }
 
+  div#input {
+    padding-left: 3%; }
+
   div.why {
     grid-column: 3 / 4;
     grid-row: 1; }
@@ -1209,7 +1245,7 @@ body {
     padding-top: 2rem;
     margin-left: 5%;
     font-family: "Playfair Display", serif;
-    font-size: 1.5rem; }
+    font-size: 1.2rem; }
 
   footer p.copyright {
     text-align: center;
@@ -1223,7 +1259,7 @@ body {
     margin-right: 20px; }
 
   p.footerText {
-    font-size: 1.2rem;
+    font-size: .8rem;
     padding: 2%;
     margin: 0;
     margin-left: 3%;

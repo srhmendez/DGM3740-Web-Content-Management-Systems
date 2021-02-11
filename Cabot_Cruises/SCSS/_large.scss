@@ -9,6 +9,21 @@ div.search{
     padding:0;
     margin-top:10px;
     margin-right:2rem;
+    width:100%;
+    input{
+      width:200px;
+    }
+}
+nav#nav{
+  width:100%;
+  display:flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+div#mobileBar{
+  width:30%;
+  display:flex;
+  flex-direction: row;
 }
 #primaryNav {
     display:block;
@@ -190,6 +205,9 @@ div.newsletter{
     justify-content: flex-start;
     margin-left:1rem;
 }
+div#input{
+  padding-left:3%;
+}
 div.why{
     grid-column: 3 / 4;
     grid-row: 1;
@@ -204,7 +222,7 @@ footer{
     padding-top:2rem;
     margin-left:5%;
     font-family: $font;
-    font-size:1.5rem;
+    font-size:1.2rem;
   
   }
   footer p.copyright{
@@ -220,7 +238,7 @@ footer{
       margin-right:20px;
   }
   p.footerText{
-    font-size:1.2rem;
+    font-size:.8rem;
     padding:2%;
     margin:0;
     margin-left:3%;
