@@ -608,7 +608,7 @@ header {
 div#logo.logo {
   width: 100%; }
 
-figure#logo {
+figure#logo2 {
   width: 100%;
   padding-bottom: 20%;
   display: flex;
@@ -616,7 +616,7 @@ figure#logo {
   justify-content: center;
   margin: 0 auto; }
 
-img#logo {
+img#logo3 {
   margin-top: 1vh;
   width: 50%;
   max-width: 150px; }
@@ -959,7 +959,7 @@ body {
     flex-direction: row;
     height: 10rem; }
 
-  figure#logo {
+  figure#logo2 {
     width: 60%; }
 
   div#logo.logo {
@@ -975,7 +975,7 @@ body {
     flex-direction: row;
     justify-content: space-between; }
 
-  img#logo {
+  img#logo3 {
     margin: 0;
     margin-top: 6vh;
     width: 100%;
@@ -1164,10 +1164,10 @@ body {
   .slick-dots li button:before {
     font-size: 1.5rem; }
 
-  figure#logo {
+  figure#logo2 {
     justify-content: space-between; }
 
-  img#logo {
+  img#logo3 {
     max-width: 200px;
     justify-content: flex-start;
     margin-left: 1rem; }
