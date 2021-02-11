@@ -1,19 +1,23 @@
-@import '_normalize';
+@import '../SCSS/normalize';
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import "_variables";
+@import "../SCSS/variables";
 
 @import "../Cabot_Cruises/slick/slick-theme.scss";
 @import "../Cabot_Cruises/slick/slick.scss";
 
-@import "_small";
+
+@import "../SCSS/header";
+@import"../SCSS/footer";
+
+@import "../SCSS/small";
 
 @media only screen and (min-width: 767px) {
-    @import "_medium";
+    @import "../SCSS/medium";
 
 } /*End of the Medium Query*/
 
 @media only screen and (min-width: 1025px) {
-    @import "_large";
+    @import "../SCSS/large";
 
 } /*End of the Medium Query*/ 
 
