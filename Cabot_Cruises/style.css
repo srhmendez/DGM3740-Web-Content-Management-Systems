@@ -602,7 +602,7 @@ header {
   display: flex;
   flex-direction: column;
   max-width: 1200px;
-  height: 13rem;
+  height: 5rem;
   width: 100%; }
 
 div#logo.logo {
@@ -610,14 +610,16 @@ div#logo.logo {
 
 figure#logo {
   width: 100%;
+  padding-bottom: 20%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto; }
 
 img#logo {
-  margin-top: 4vh;
-  width: 50%; }
+  margin-top: 1vh;
+  width: 50%;
+  max-width: 150px; }
 
 header p {
   text-align: center;
@@ -646,7 +648,7 @@ div.social {
   justify-content: space-evenly;
   flex-direction: row;
   margin: 0 auto;
-  width: 300px;
+  width: 100%;
   padding-bottom: 50px; }
 
 .social {
@@ -665,7 +667,7 @@ body {
   box-sizing: border-box; }
 
 #hamburgerBtn {
-  display: hidden; }
+  display: none; }
 
 /* hide the navigation button for all screen widths. We will show it below just for small screens */
 @media only screen and (max-width: 65rem) {
@@ -680,8 +682,7 @@ body {
     width: 100%;
     height: 2.75rem;
     background-color: #0887c2;
-    display: flex;
-    justify-content: column; }
+    display: flex; }
 
   #hamburgerBtn:focus {
     outline: none;
@@ -709,7 +710,6 @@ body {
     #hamburgerBtn p.openClose {
       margin: 0;
       margin-left: 10px;
-      margin-block-end: 0;
       width: 40%;
       font-family: "Playfair Display", serif; }
 
@@ -912,6 +912,10 @@ body {
       border-radius: 10px;
       margin-left: 10px;
       font-family: "Playfair Display", serif; }
+    div#input div.social {
+      width: 100%;
+      margin-left: 10%;
+      max-width: 100vw; }
 
   /* End Mobile Styles */ }
 /* End Mobile Styles */
@@ -942,6 +946,9 @@ body {
     width: 10%;
     bottom: 5px; }
 
+  div#mobileBar {
+    height: 50px; }
+
   div.search {
     margin-left: 10%;
     padding-top: 2rem; }
@@ -950,10 +957,10 @@ body {
   header {
     display: flex;
     flex-direction: row;
-    height: 20rem; }
+    height: 10rem; }
 
   figure#logo {
-    width: 100%; }
+    width: 60%; }
 
   div#logo.logo {
     display: flex;
@@ -962,6 +969,7 @@ body {
     margin: 0; }
 
   div#header {
+    margin-top: 5vh;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -969,6 +977,7 @@ body {
 
   img#logo {
     margin: 0;
+    margin-top: 6vh;
     width: 100%;
     margin-left: 5%; }
 
@@ -981,8 +990,8 @@ body {
     display: flex;
     align-items: center;
     width: 30%;
-    margin-left: 5%;
-    margin-right: 5%; }
+    padding-left: 15%;
+    margin-right: 6%; }
 
   a#telephoneNum {
     visibility: visible;
@@ -994,7 +1003,8 @@ body {
       padding: 3%;
       color: rgba(255, 255, 255, 0.9);
       margin: 0;
-      font-size: 150%; }
+      font-size: 100%;
+      text-align: center; }
 
   nav span {
     width: 40%; }
@@ -1053,7 +1063,10 @@ body {
 
   div.why {
     grid-column: 1 / 3;
-    grid-row: 3; } }
+    grid-row: 3; }
+
+  div.social {
+    max-width: 300px; } }
 /*End of the Medium Query*/
 @media only screen and (min-width: 1025px) {
   /*  ----------------------- NAVIGATION --------------------------- */

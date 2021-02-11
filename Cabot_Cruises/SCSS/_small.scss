@@ -21,7 +21,7 @@ body{
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 #hamburgerBtn { 
-  display: hidden; 
+  display: none; 
 
 } /* hide the navigation button for all screen widths. We will show it below just for small screens */
 
@@ -40,7 +40,6 @@ body{
       height: 2.75rem;
       background-color: $menuColor;
       display:flex;
-      justify-content: column;
   }
   
 //Styles the clickable hamburger button
@@ -70,7 +69,6 @@ body{
       p.openClose{
         margin:0;
         margin-left:10px;
-        margin-block-end:0;
         width:40%;
         font-family: $font;
 
@@ -306,6 +304,11 @@ div#input{
     margin-left:10px;
     font-family: $font;
 
+  }
+  div.social{
+    width:100%;
+    margin-left:10%;
+    max-width:100vw;
   }
 }
 
