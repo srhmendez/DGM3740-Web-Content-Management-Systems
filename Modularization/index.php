@@ -1,3 +1,4 @@
+<!-- INCLUDE HEADER -->
 <?php include"_header.php";?>
 
 
@@ -58,4 +59,6 @@
         </div>    
     </section>
 
+
+<!-- INCLUDE FOOTER -->
 <?php include"_footer.php";?>
