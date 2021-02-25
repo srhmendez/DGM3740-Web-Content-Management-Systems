@@ -964,7 +964,7 @@ body {
     height: 50px; }
 
   div.search {
-    margin-left: 7%;
+    margin-left: 5%;
     margin-right: 3%;
     padding-top: 2rem; }
     div.search form {
@@ -1052,14 +1052,17 @@ body {
       margin: 1%; }
     figure.featuredImage figcaption {
       margin-left: 1%;
+      margin-right: 1%;
       bottom: 10px; }
 
   h1 {
     font-size: 1.2rem; }
 
   h3.blogTitle {
+    width: 100%;
     font-size: 1.5rem;
-    bottom: 35px; }
+    bottom: 35px;
+    margin-left: 1%; }
 
   figcaption h4 {
     font-size: 1rem; }
@@ -1341,4 +1344,4 @@ body {
       border-radius: 10px;
       margin-left: 10px;
       font-family: "Playfair Display", serif; } }
-/*End of the Medium Query*/
+/*End of the Large Query*/
