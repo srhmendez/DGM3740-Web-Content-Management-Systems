@@ -40,8 +40,8 @@
             </div>
         </div>    
         <ul id="primaryNav">
-            <li class="home current-menu-item"><a href="#">Home</a></li>
-            <li class="cruises"><a href="#">Cruises</a></li>
+            <li class="home current-menu-item"><a href="index.php">Home</a></li>
+            <li class="cruises"><a href="cruises.php">Cruises</a></li>
             <li class="parent"><a href="#">Agents</a>
                 <ul>
                     <li class="nested"><a class="nestedLI" href="#">Find An Agent</a></li>
