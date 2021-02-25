@@ -7,17 +7,33 @@
 
 
 @import "../SCSS/header";
+
+@import "../SCSS/bookings";
+
+
+
+
+
 @import"../SCSS/footer";
 
 @import "../SCSS/small";
 
+
+/* BEGINNING OF MEDIUM MEDIA QUERY */
 @media only screen and (min-width: 767px) {
     @import "../SCSS/medium";
 
-} /*End of the Medium Query*/
+} 
+/* END OF MEDIUM MEDIA QUERY */
+
+
+
+
+
+/* BEGINNING OF LARGE MEDIA QUERY */
 
 @media only screen and (min-width: 1025px) {
     @import "../SCSS/large";
 
-} /*End of the Large Query*/ 
+} /*END OF LARGE MEDIA QUERY*/ 
 

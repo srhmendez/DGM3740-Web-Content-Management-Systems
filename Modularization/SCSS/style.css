@@ -643,6 +643,24 @@ a.addressLink {
   text-decoration: none;
   color: black; }
 
+@media only screen and (max-width: 65rem) {
+  div.booking-container img {
+    width: 100%; }
+  div.booking-container div.cruise-text {
+    width: 97%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    div.booking-container div.cruise-text h2.cruise-h2 {
+      font: "Playfair Display", serif; }
+    div.booking-container div.cruise-text p.cruise-p {
+      font: "Playfair Display", serif; }
+    div.booking-container div.cruise-text button {
+      width: 100%;
+      border-radius: 8px;
+      background: #0887c2;
+      color: rgba(255, 255, 255, 0.9); } }
 div.social {
   display: flex;
   justify-content: space-evenly;
@@ -932,6 +950,7 @@ body {
 
   /* End Mobile Styles */ }
 /* End Mobile Styles */
+/* BEGINNING OF MEDIUM MEDIA QUERY */
 @media only screen and (min-width: 767px) {
   nav#nav.clearfix {
     height: 6rem; }
@@ -1099,7 +1118,8 @@ body {
 
   div.social {
     max-width: 300px; } }
-/*End of the Medium Query*/
+/* END OF MEDIUM MEDIA QUERY */
+/* BEGINNING OF LARGE MEDIA QUERY */
 @media only screen and (min-width: 1025px) {
   /*  ----------------------- NAVIGATION --------------------------- */
   button#hamburgerBtn {
@@ -1325,4 +1345,4 @@ body {
       background: #0887c2;
       color: rgba(255, 255, 255, 0.9);
       margin-left: 5%; } }
-/*End of the Large Query*/
+/*END OF LARGE MEDIA QUERY*/
