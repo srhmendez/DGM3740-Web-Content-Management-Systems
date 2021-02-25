@@ -710,7 +710,7 @@ body {
       display: flex;
       flex-direction: row;
       align-items: center; }
-    #hamburgerBtn p.openClose {
+    #hamburgerBtn .openClose {
       margin: 0;
       margin-left: 10px;
       width: 40%;
@@ -842,8 +842,7 @@ body {
     font-size: 1.2rem; }
 
   figure img {
-    margin: 0;
-    background: #0887c2; }
+    margin: 0; }
 
   .featuredImages {
     display: flex;
@@ -947,13 +946,12 @@ body {
     flex-direction: row;
     align-items: center; }
 
-  span p.openClose {
+  span .openClose {
     font-size: 100%;
     padding-top: 2%;
     width: 70%;
     margin: 0;
-    margin-top: 10px;
-    margin-block-end: 0; }
+    margin-top: 10px; }
 
   #hamburgerBtn span i {
     font-size: 300%;
@@ -1031,7 +1029,7 @@ body {
   nav span {
     width: 40%; }
 
-  span p.openClose {
+  span .openClose {
     margin-left: 3rem; }
 
   .featuredImages {
