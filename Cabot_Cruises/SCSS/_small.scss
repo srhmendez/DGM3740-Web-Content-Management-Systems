@@ -4,8 +4,6 @@ body{
   max-width:1200px;
 }
 
-
-
 /*     NAVIGATION CSS RULES    */
 
 //------------------------------------------------------------------
@@ -60,11 +58,12 @@ body{
   font-weight: normal;
   text-align: left;
   //used to enlarge an entity to match any words that may also be used, like OPEN
-      i {font-size: 1.4rem; font-style: normal;}
+      i {font-size: 1.4rem; font-style: normal;margin-right:10%;padding-bottom:10%;}
       span {
         width:150%;
         display:flex;
         flex-direction: row;
+        align-items: center;
       }
       p.openClose{
         margin:0;
@@ -176,12 +175,18 @@ div#mobileBar{
 }
 //search bar in nav
 div.search{
+  display:flex;
+  flex-direction: row;
   padding-top:1.5%;
-  padding-left:15%;
+  padding-left:10%;
   margin-left:10%;
-  input{
-    width:70%;
-    height:2rem;
+  width:100%;
+  form{
+    width:100%;
+    input#form1{
+      width:100%;
+      height:2rem;
+    }
   }
   button{
     height:2rem;
@@ -193,12 +198,13 @@ div.search{
 section.hero{
   z-index: 2;
 }
-picture{
+ picture{
   position: relative;
+  display:flex;
+  justify-content: center;
 }
 picture img{
   margin:0 auto;
-  margin-top:10px;
   width:100%;
 }
 //Dots for slideshow
@@ -214,7 +220,7 @@ h1{
   margin-top:5rem;
   font-size:1.2rem;
 }
-picture img{
+picture figure img{
   margin:0;
   background: $menuColor;
 }
@@ -286,12 +292,14 @@ p.footerText{
   margin:0;
   font-family: $font;
 }
-div#input{
+div#input2{
   display:flex;
-  justify-content: center;
+  justify-content: flex-start;
+  width:100%;
   input{
+    margin-left:3%;
     padding:15px;
-    width:72%;
+    width:100%;
     font-family: $font;
   }
   button{

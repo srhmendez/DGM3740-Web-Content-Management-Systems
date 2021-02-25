@@ -32,8 +32,18 @@ div#mobileBar{
 }
 //search bar
 div.search{
-    margin-left:10%;
+    margin-left:7%;
+    margin-right:3%;
     padding-top:2rem;
+    form{
+        margin-right:2%;
+        button{
+            margin-right:2%;
+        }
+    }
+}
+input#form2{
+    height: .8rem;
 }
 
 /* Header Rules */
@@ -109,7 +119,7 @@ span p.openClose{
     flex-wrap: wrap;
     margin:0 auto;
 }
-picture.featuredImage{
+figure.featuredImage{
     display:flex;
     position: relative;
     flex-direction: column;
@@ -147,6 +157,16 @@ figcaption{
 //footer css
 div#input{
     margin-top:1rem;
+}
+div#input2{
+    display:flex;
+    justify-content: flex-start;
+    margin-top:10px;
+    button{
+        background:$menuColor;
+        color:$menuTextColor;
+        margin-left:5%;
+    }
 }
 div#footerContainer{
     display:grid;

@@ -13,7 +13,7 @@
         <div id="header">
             <div class="logo" id="logo">
                 <figure id="logo2">
-                    <img src="../Cabot_Cruises/Images/Cabot_Cruises_Logo 12.16.42 AM.svg" alt="logo" id="logo3" srcset="./Images/Logo-2.svg 1x,./Images/Logo-3.svg 2x">
+                    <img src="../Cabot_Cruises/Images/Cabot_Cruises_Logo.svg" alt="logo" id="logo3" srcset="./Images/Logo-2.svg 1x,./Images/Logo-3.svg 2x">
                 </figure>
             </div>
             <div class="phoneNum">
@@ -26,12 +26,14 @@
     <nav id="nav" class="clearfix">
         <div id="mobileBar">
             <button id="hamburgerBtn">
-                <span><i>&otimes;</i><p class="openClose">CLOSE</p></span>
-                <span><i>&equiv;</i><p class="openClose">OPEN</p></span>
+                <span><i>&otimes;</i>CLOSE</span>
+                <span><i>&equiv;</i>OPEN</span>
             </button>
             <div class="search"> 
-                <input type="text" placeholder="Search..">
-                <button class="search">&#128269</button>
+                <form>
+                    <input id="form1" type="text" placeholder="Search..">
+                </form>
+                <button class="search">&#128269;</button>
             </div>
         </div>    
         <ul id="primaryNav">
@@ -73,26 +75,26 @@
     <section class="featured">
         <h1>Recent Blog Posts</h1>
         <div class="featuredImages">
-            <picture class="featuredImage">
-                <img src="/Cabot_Cruises/Images/1-Featured.jpg" alt="woman water skis">
-                <h3 class="blogTitle">Waterski Like a Pro</h3>
-                <figcaption><h4>June 22, 2020</h4></figcaption>
-            </picture>
-            <picture class="featuredImage">
-                <img src="/Cabot_Cruises/Images/2-Featured.jpg" alt="pair of ray bans in the sand">
-                <h3 class="blogTitle">Top 10 Beaches</h3>
-                <figcaption><h4>June 22, 2020</h4></figcaption>
-            </picture>
-            <picture class="featuredImage">
-                <img src="/Cabot_Cruises/Images/3-Featured.jpg" alt="picnic basket with charcuterie on the beach">
-                <h3 class="blogTitle">Picnic Paradise</h3>
-                <figcaption><h4>June 22, 2020</h4></figcaption>
-            </picture>
-            <picture class="featuredImage">
-                <img src="/Cabot_Cruises/Images/4-Featured.jpg" alt="three friends celebrate reaching the summit on a hike">
-                <h3 class="blogTitle">Best Hikes</h3>
-                <figcaption><h4>June 22, 2020</h4></figcaption>
-            </picture>
+            <figure class="featuredImage">
+                    <img src="/Cabot_Cruises/Images/1-Featured.jpg" alt="woman water skis">
+                    <h3 class="blogTitle">Waterski Like a Pro</h3>
+                    <figcaption><h4>June 22, 2020</h4></figcaption>
+            </figure>
+            <figure  class="featuredImage">
+                    <img src="/Cabot_Cruises/Images/2-Featured.jpg" alt="pair of ray bans in the sand">
+                    <h3 class="blogTitle">Top 10 Beaches</h3>
+                    <figcaption><h4>June 22, 2020</h4></figcaption>
+            </figure>
+            <figure  class="featuredImage">
+                    <img src="/Cabot_Cruises/Images/3-Featured.jpg" alt="picnic basket with charcuterie on the beach">
+                    <h3 class="blogTitle">Picnic Paradise</h3>
+                    <figcaption><h4>June 22, 2020</h4></figcaption>
+            </figure>
+            <figure  class="featuredImage">
+                    <img src="/Cabot_Cruises/Images/4-Featured.jpg" alt="three friends celebrate reaching the summit on a hike">
+                    <h3 class="blogTitle">Best Hikes</h3>
+                    <figcaption><h4>June 22, 2020</h4></figcaption>
+            </figure>
 
         </div>    
     </section>
@@ -104,7 +106,7 @@
                     <h1>Address</h1>
                     <a class="addressLink" href="https://goo.gl/maps/8xjqcKbDYvaf6H7e7"></a><p class="footerText">Cabot Cruises</p>
                     <p class="footerText">150 Civic Center Dr</p>
-                    <p class="footerText">Sandy, UT 84070</p></a>
+                    <p class="footerText">Sandy, UT 84070</p>
                     <h1>Phone</h1>
                     <p class="footerText">(555)-555-5555</p>
                     <h1>Hours of Operation</h1>
@@ -113,8 +115,11 @@
                 <div class="newsletter">
                     <h1>Newsletter</h1>
                     <p class="footerText"> Subscribe to our Newsletter to stay up to date with our hottest deals and limited packages.</p>
-                        <div id="input">
-                            <input type="email" placeholder="email address" id="form2"></input>
+                        <div id="input2">
+                            <form>
+                                <input type="email" placeholder="email address" id="form2">
+                                </input>
+                            </form>
                             <button class="subscribe" type="submit" form="form2" value="Submit">Subscribe</button>
                         </div>
                 </div>
