@@ -1254,7 +1254,7 @@ body {
     color: rgba(255, 255, 255, 0.9);
     font-family: "Playfair Display", serif; }
 
-  picture.featuredImage figcaption {
+  figure.featuredImage figcaption {
     position: relative;
     margin: 0;
     margin-left: 0;
@@ -1326,22 +1326,5 @@ body {
     div#input2 button {
       background: #0887c2;
       color: rgba(255, 255, 255, 0.9);
-      margin-left: 5%; }
-
-  div#input {
-    display: flex;
-    justify-content: center; }
-    div#input input {
-      padding: 15px;
-      width: 72%;
-      font-family: "Playfair Display", serif; }
-    div#input button {
-      background: #6670ff;
-      box-shadow: none;
-      outline: none;
-      color: white;
-      border: none;
-      border-radius: 10px;
-      margin-left: 10px;
-      font-family: "Playfair Display", serif; } }
+      margin-left: 5%; } }
 /*End of the Large Query*/

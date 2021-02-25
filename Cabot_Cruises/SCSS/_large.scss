@@ -183,7 +183,7 @@ h1{
     font-family: $font;
   
   }
-  picture.featuredImage figcaption{
+  figure.featuredImage figcaption{
     position: relative;
     margin:0;
     margin-left:0;
@@ -263,25 +263,4 @@ footer{
         color:$menuTextColor;
         margin-left:5%;
     }
-}
-  div#input{
-    display:flex;
-    justify-content: center;
-    input{
-      padding:15px;
-      width:72%;
-      font-family: $font;
-    }
-    button{
-      background: lighten($color: $menuNames, $amount: 20);
-      box-shadow: none;
-      outline: none;
-      color:white;
-      border:none;
-      border-radius:10px;
-      margin-left:10px;
-      font-family: $font;
-  
-    }
-
   }
