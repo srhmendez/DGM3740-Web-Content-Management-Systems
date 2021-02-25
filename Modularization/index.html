@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Cabot_Cruises/SCSS/style.css">
+
+    <title>Cabot Cruizes</title>
+</head>
+<body>
+    <header>
+        <div id="header">
+            <div class="logo" id="logo">
+                <figure id="logo2">
+                    <img src="/Images/Cabot_Cruises_Logo.svg" alt="logo" id="logo3" srcset="./Images/Logo-2.svg 1x,./Images/Logo-3.svg 2x">
+                </figure>
+            </div>
+            <div class="phoneNum">
+                <a id="telephoneNum" href="tel:8015555555"><p>801-555-5555</p></a>
+            </div>
+        </div>
+
+    </header>
+
+    <nav id="nav" class="clearfix">
+        <div id="mobileBar">
+            <button id="hamburgerBtn">
+                <span><i>&otimes;</i>CLOSE</span>
+                <span><i>&equiv;</i>OPEN</span>
+            </button>
+            <div class="search"> 
+                <form>
+                    <input id="form1" type="text" placeholder="Search..">
+                </form>
+                <button class="search">&#128269;</button>
+            </div>
+        </div>    
+        <ul id="primaryNav">
+            <li class="home current-menu-item"><a href="#">Home</a></li>
+            <li class="cruises"><a href="#">Cruises</a></li>
+            <li class="parent"><a href="#">Agents</a>
+                <ul>
+                    <li class="nested"><a class="nestedLI" href="#">Find An Agent</a></li>
+                    <li class="nested"><a class="nestedLI" href="#">Pricing</a></li>
+                </ul>
+            </li>
+            <li class="book"><a href="#">Book</a></li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <div class="heroCaro">
+            <picture class="sliderImageDiv">
+                <source media="(max-width:480px)" srcset="Images/Square-Cruise-Hero-Image.jpg">
+                <source media="(min-width:481px)" srcset="Images/Cruise-Hero-Image.jpg">
+                <img src="Images/Cruise-Hero-Image.jpg" alt="Cruise ship sails through the ocean at sunset">
+            </picture>
+            <picture class="sliderImageDiv">
+                <source media="(max-width:480px)" srcset="Images/Square-Family-in-ocean-hero.jpg">
+                <source media="(min-width:481px)" srcset="Images/Family-in-ocean-hero.jpg">
+                <img src="Images/Family-in-ocean-hero.jpg" alt="A man, woman, and child hold hands as they run through a wave in the ocean">
+            </picture>
+            <picture class="sliderImageDiv">
+                <source media="(max-width:480px)" srcset="Images/Square-Feet-up-hero.jpg">
+                <source media="(min-width:481px)" srcset="Images/Feet-up-hero.jpg">
+                <img src="Images/Feet-up-hero.jpg" alt="A man has his feet up on a table overlooking the sunset on the ocean's horizon">
+            </picture>
+            <picture class="sliderImageDiv">
+                <source media="(max-width:480px)" srcset="Images/Square-Party-hero.jpg">
+                <source media="(min-width:481px)" srcset="Images/Party-hero.jpg">
+                <img src="Images/Party-hero.jpg" alt="A group of friends enjoy drinks on the pier near the ocean.">
+            </picture>
+        </div>
+    </section>
+    <section class="featured">
+        <h1>Recent Blog Posts</h1>
+        <div class="featuredImages">
+            <figure class="featuredImage">
+                    <img src="Images/1-Featured.jpg" alt="woman water skis">
+                    <h3 class="blogTitle">Waterski Like a Pro</h3>
+                    <figcaption><h4>June 22, 2020</h4></figcaption>
+            </figure>
+            <figure  class="featuredImage">
+                    <img src="Images/2-Featured.jpg" alt="pair of ray bans in the sand">
+                    <h3 class="blogTitle">Top 10 Beaches</h3>
+                    <figcaption><h4>June 22, 2020</h4></figcaption>
+            </figure>
+            <figure  class="featuredImage">
+                    <img src="Images/3-Featured.jpg" alt="picnic basket with charcuterie on the beach">
+                    <h3 class="blogTitle">Picnic Paradise</h3>
+                    <figcaption><h4>June 22, 2020</h4></figcaption>
+            </figure>
+            <figure  class="featuredImage">
+                    <img src="Images/4-Featured.jpg" alt="three friends celebrate reaching the summit on a hike">
+                    <h3 class="blogTitle">Best Hikes</h3>
+                    <figcaption><h4>June 22, 2020</h4></figcaption>
+            </figure>
+
+        </div>    
+    </section>
+    <section class="footer">
+        <footer>
+            <div id="footerContainer">
+
+                <div class="address">
+                    <h1>Address</h1>
+                    <a class="addressLink" href="https://goo.gl/maps/8xjqcKbDYvaf6H7e7"></a><p class="footerText">Cabot Cruises</p>
+                    <p class="footerText">150 Civic Center Dr</p>
+                    <p class="footerText">Sandy, UT 84070</p>
+                    <h1>Phone</h1>
+                    <p class="footerText">(555)-555-5555</p>
+                    <h1>Hours of Operation</h1>
+                    <p class="footerText">Monday-Friday: 8am - 7pm</p>
+                </div>
+                <div class="newsletter">
+                    <h1>Newsletter</h1>
+                    <p class="footerText"> Subscribe to our Newsletter to stay up to date with our hottest deals and limited packages.</p>
+                        <div id="input2">
+                            <form>
+                                <input type="email" placeholder="email address" id="form2">
+                            </form>
+                            <button class="subscribe" type="submit" value="Submit">Subscribe</button>
+                        </div>
+                </div>
+                <div class="why">
+                    <h1>Why Cabot Cruizes?</h1>
+                    <p class="footerText" id="cabotText">Cabot Cruises is a travel agency providing the best cruise deals on our online travel website. We can help you with all inclusive vaca8ons
+                        including discounted cruises.
+                        We do not sell travel to residents of Delaware, Iowa, Florida, Hawaii and Washington state because those states are just weird. If you are a
+                        resident of one of these states, call your congressman and tell them to change the regula8ons.</p>
+                </div>
+            </div>
+            <p class="copyright">&#169; 2021 &sdot; Sarah Mendez &sdot; Login</p>
+            <div class="social">
+                <i class="fab fa-facebook-f social"></i>
+                <i class="fab fa-twitter social"></i>
+                <i class="fab fa-instagram social"></i>
+                <i class="fab fa-linkedin social"></i>
+                <i class="fab fa-youtube social"></i>
+
+            </div>
+        </footer>
+    </section>
+    
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Sandy",
+            "addressRegion": "UT",
+            "postalCode": "84070",
+            "streetAddress": "150 Civic Center Dr"
+          },
+          "image": "https://media.istockphoto.com/photos/tropical-paradise-picture-id155375632?k=6&m=155375632&s=612x612&w=0&h=LQrZrnKoV2taqlChFLMG2qLsXKgjQBYTuLCNyjfbQm0=",
+          "name": "CabotCruises",
+          "openingHours": [
+            "Mo-Fr 8:00-19:00"
+          ],
+          "telephone": "(555) 555-5555",
+          "url": "http://dgm3740.sarahmendez.com/Cabot_Cruises/"
+        }
+        </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

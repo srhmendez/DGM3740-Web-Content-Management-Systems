@@ -1,0 +1,23 @@
+@import '../SCSS/normalize';
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import "../SCSS/variables";
+
+@import "../slick/slick-theme.scss";
+@import "../slick/slick.scss";
+
+
+@import "../SCSS/header";
+@import"../SCSS/footer";
+
+@import "../SCSS/small";
+
+@media only screen and (min-width: 767px) {
+    @import "../SCSS/medium";
+
+} /*End of the Medium Query*/
+
+@media only screen and (min-width: 1025px) {
+    @import "../SCSS/large";
+
+} /*End of the Large Query*/ 
+
