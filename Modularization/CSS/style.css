@@ -969,7 +969,35 @@ body {
       background: #0887c2;
       color: white; }
 
-  /* End Mobile Styles */ }
+  /* AGENT PAGE CSS */
+  h1.agent-name {
+    font-size: "Playfair Display", serif;
+    color: #5c5c5c;
+    font-size: 2.1rem;
+    margin-left: 10px; }
+
+  h2.agent-info-heading {
+    font-family: "Playfair Display", serif;
+    color: #5c5c5c; }
+
+  p.customer-name {
+    font-family: #5c5c5c;
+    color: #5c5c5c;
+    font-weight: 700; }
+
+  figure.agent-photo {
+    max-width: 100vw;
+    margin: 10px; }
+    figure.agent-photo img#agent-joanna {
+      width: 100%; }
+
+  div.agent-text {
+    margin: 10px; }
+
+  div.agent-customer-reviews {
+    margin-bottom: 3rem; }
+
+  /* CRUISE FORM PAGE CSS */ }
 /* End Mobile Styles */
 /* BEGINNING OF MEDIUM MEDIA QUERY */
 @media only screen and (min-width: 767px) {
@@ -1197,7 +1225,48 @@ body {
     div.cruise-text p.cruise-p {
       margin-top: 0;
       margin-bottom: 8%;
-      font-family: "Playfair Display", serif; } }
+      font-family: "Playfair Display", serif; }
+
+  /* CRUISE PAGE CSS */
+  main {
+    margin: 1%; }
+
+  h1.agent-name {
+    font-size: "Playfair Display", serif;
+    color: #5c5c5c;
+    font-size: 2.6rem;
+    margin-left: 10px;
+    margin-top: 2rem; }
+
+  h2.agent-info-heading {
+    font-family: "Playfair Display", serif;
+    color: #5c5c5c; }
+
+  p.customer-name {
+    font-family: #5c5c5c;
+    color: #5c5c5c;
+    font-weight: 700; }
+
+  figure.agent-photo {
+    max-width: 100vw;
+    margin: 20px;
+    width: 50%;
+    float: right; }
+    figure.agent-photo img#agent-joanna {
+      width: 100%; }
+
+  div.agent-text {
+    margin: 10px; }
+
+  div.agent-customer-reviews {
+    margin-bottom: 3rem; }
+
+  div#text-wrap-content {
+    float: left;
+    max-width: 100%; }
+
+  div.agent-biography {
+    margin-top: 37%; } }
 /* END OF MEDIUM MEDIA QUERY */
 /* BEGINNING OF LARGE MEDIA QUERY */
 @media only screen and (min-width: 1025px) {
@@ -1418,61 +1487,70 @@ body {
     justify-content: flex-start;
     margin-left: 3%;
     padding-left: 2%;
-    margin-top: 10px;
-    /*CRUISES CSS LARGE*/ }
+    margin-top: 10px; }
     div#input2 #form2 {
       height: 2rem; }
     div#input2 button {
       background: #0887c2;
       color: rgba(255, 255, 255, 0.9);
       margin-left: 5%; }
-    div#input2 section#logo {
-      display: flex;
-      justify-content: center; }
-    div#input2 h1#cruises {
-      color: #5c5c5c;
-      margin-top: 1rem;
-      margin-bottom: 2rem;
+
+  /*CRUISES CSS LARGE*/
+  section#logo {
+    display: flex;
+    justify-content: center; }
+
+  h1#cruises {
+    color: #5c5c5c;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-family: "Playfair Display", serif;
+    font-size: 1.6rem; }
+
+  img.logo {
+    width: 10%; }
+
+  figure.cruise-booking {
+    display: flex;
+    max-width: 100vw;
+    justify-content: center;
+    margin: 2rem auto;
+    height: min-content; }
+    figure.cruise-booking img.cruise-booking {
+      width: 35%;
+      height: min-content;
+      margin-left: 1.5%;
+      margin-right: 1.5%; }
+
+  div.cruise-text {
+    justify-content: flex-start;
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column; }
+    div.cruise-text button {
+      align-items: flex-end;
       font-family: "Playfair Display", serif;
-      font-size: 1.6rem; }
-    div#input2 img.logo {
-      width: 10%; }
-    div#input2 figure.cruise-booking {
-      display: flex;
-      max-width: 100vw;
-      justify-content: center;
-      margin: 2rem auto;
-      height: min-content; }
-      div#input2 figure.cruise-booking img.cruise-booking {
-        width: 35%;
-        height: min-content;
-        margin-left: 1.5%;
-        margin-right: 1.5%; }
-    div#input2 div.cruise-text {
-      justify-content: flex-start;
-      margin: 0px 10px;
-      display: flex;
-      flex-direction: column; }
-      div#input2 div.cruise-text button {
-        align-items: flex-end;
-        font-family: "Playfair Display", serif;
-        padding: 10px 0px;
-        border: none;
-        background: #0887c2;
-        color: white;
-        border-radius: 8px;
-        width: 40%;
-        margin-left: 60%;
-        margin-right: 0;
-        margin-bottom: 0;
-        margin-top: 0%; }
-      div#input2 div.cruise-text h2.cruise-h2 {
-        margin-top: 0px;
-        font-family: "Playfair Display", serif;
-        color: #5c5c5c;
-        font-size: 1.2rem; }
-      div#input2 div.cruise-text p.cruise-p {
-        margin-top: 0;
-        margin-bottom: 8%;
-        font-family: "Playfair Display", serif; } }
+      padding: 10px 0px;
+      border: none;
+      background: #0887c2;
+      color: white;
+      border-radius: 8px;
+      width: 40%;
+      margin-left: 60%;
+      margin-right: 0;
+      margin-bottom: 0;
+      margin-top: 0%; }
+    div.cruise-text h2.cruise-h2 {
+      margin-top: 0px;
+      font-family: "Playfair Display", serif;
+      color: #5c5c5c;
+      font-size: 1.2rem; }
+    div.cruise-text p.cruise-p {
+      margin-top: 0;
+      margin-bottom: 8%;
+      font-family: "Playfair Display", serif; }
+
+  /*AGENTS CSS LARGE*/
+  div.agent-biography {
+    margin-top: 32%; } }
 /*END OF LARGE MEDIA QUERY*/
