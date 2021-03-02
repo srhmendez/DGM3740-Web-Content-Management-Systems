@@ -45,11 +45,11 @@
             <li class="cruises"><a href="cruises.php">Cruises</a></li>
             <li class="parent"><a href="#">Agents</a>
                 <ul>
-                    <li class="nested"><a class="nestedLI" href="#">Find An Agent</a></li>
-                    <li class="nested"><a class="nestedLI" href="#">Pricing</a></li>
+                    <li class="nested"><a class="nestedLI" href="agent-1.php">Joanna Livingston</a></li>
+                    <li class="nested"><a class="nestedLI" href="agent-2.php">Juan Carlos</a></li>
                 </ul>
             </li>
-            <li class="book"><a href="#">Book</a></li>
+            <li class="book"><a href="booking.php">Book</a></li>
         </ul>
     </nav>
 

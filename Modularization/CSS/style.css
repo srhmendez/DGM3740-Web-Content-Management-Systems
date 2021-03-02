@@ -997,7 +997,27 @@ body {
   div.agent-customer-reviews {
     margin-bottom: 3rem; }
 
-  /* CRUISE FORM PAGE CSS */ }
+  /* CRUISE FORM PAGE CSS */
+  form#cruise-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: "Playfair Display", serif; }
+    form#cruise-form label {
+      margin: 10px 0px; }
+    form#cruise-form input {
+      padding: 10px; }
+    form#cruise-form button {
+      margin: 20px 0;
+      color: white;
+      background: #0887c2;
+      border-radius: 8px;
+      padding: 10px;
+      font-family: "Playfair Display", serif; }
+
+  h1#booking-h1 {
+    margin-left: 20px;
+    margin-top: 50px; } }
 /* End Mobile Styles */
 /* BEGINNING OF MEDIUM MEDIA QUERY */
 @media only screen and (min-width: 767px) {
@@ -1227,7 +1247,7 @@ body {
       margin-bottom: 8%;
       font-family: "Playfair Display", serif; }
 
-  /* CRUISE PAGE CSS */
+  /* AGENT PAGE CSS */
   main {
     margin: 1%; }
 
@@ -1266,7 +1286,30 @@ body {
     max-width: 100%; }
 
   div.agent-biography {
-    margin-top: 37%; } }
+    margin-top: 37%; }
+
+  /* CRUISE FORM CSS */
+  form#cruise-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+    max-width: 50%; }
+    form#cruise-form label {
+      margin: 10px 0px; }
+    form#cruise-form input {
+      padding: 10px; }
+    form#cruise-form button {
+      margin: 20px 0;
+      color: white;
+      background: #0887c2;
+      border-radius: 8px;
+      padding: 10px;
+      font-family: "Playfair Display", serif; }
+
+  h1#booking-h1 {
+    margin-left: 20px;
+    margin-top: 50px; } }
 /* END OF MEDIUM MEDIA QUERY */
 /* BEGINNING OF LARGE MEDIA QUERY */
 @media only screen and (min-width: 1025px) {
