@@ -1115,7 +1115,8 @@ body {
     div#input2 button {
       background: #0887c2;
       color: rgba(255, 255, 255, 0.9);
-      margin-left: 5%; }
+      margin-left: 5%;
+      border-radius: 8px; }
 
   div#footerContainer {
     display: grid;
@@ -1145,10 +1146,6 @@ body {
     display: flex;
     justify-content: center; }
 
-  img.logo {
-    width: 40%;
-    margin: 0 auto; }
-
   h1#cruises {
     color: #5c5c5c;
     margin-top: 1rem;
@@ -1156,19 +1153,42 @@ body {
     font-family: "Playfair Display", serif;
     font-size: 1.6rem; }
 
+  img.logo {
+    width: 30%;
+    margin: 0 auto; }
+
   figure.cruise-booking {
-    margin: 0;
-    max-width: 100vw; }
+    display: flex;
+    justify-content: center;
+    max-width: 100vw;
+    margin: 2rem auto;
+    height: min-content; }
     figure.cruise-booking img.cruise-booking {
-      width: 96%;
+      width: 35%;
+      height: min-content;
       margin-left: 1.5%;
       margin-right: 1.5%; }
 
   div.cruise-text {
-    margin: 2%;
     display: flex;
-    justify-content: center;
-    flex-direction: column; }
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0px 10px; }
+    div.cruise-text button {
+      width: 99%;
+      margin: 0 auto;
+      border-radius: 8px;
+      font-family: "Playfair Display", serif;
+      padding: 10px 0px;
+      border: none;
+      background: #0887c2;
+      color: white;
+      align-items: flex-end;
+      width: 40%;
+      margin-left: 60%;
+      margin-right: 0;
+      margin-bottom: 0;
+      margin-top: 0%; }
     div.cruise-text h2.cruise-h2 {
       margin-top: 0px;
       font-family: "Playfair Display", serif;
@@ -1177,40 +1197,7 @@ body {
     div.cruise-text p.cruise-p {
       margin-top: 0;
       margin-bottom: 8%;
-      font-family: "Playfair Display", serif; }
-    div.cruise-text button {
-      width: 99%;
-      margin: 0 auto;
-      margin-bottom: 2rem;
-      border-radius: 8px;
-      font-family: "Playfair Display", serif;
-      padding: 10px 0px;
-      border: none;
-      background: #0887c2;
-      color: white; }
-
-  img.logo {
-    width: 30%; }
-
-  figure.cruise-booking {
-    display: flex;
-    justify-content: center;
-    margin: 2rem auto;
-    height: min-content; }
-    figure.cruise-booking img.cruise-booking {
-      width: 35%;
-      height: min-content; }
-
-  div.cruise-text {
-    justify-content: flex-start;
-    margin: 0px 10px; }
-    div.cruise-text button {
-      align-items: flex-end;
-      width: 40%;
-      margin-left: 60%;
-      margin-right: 0;
-      margin-bottom: 0;
-      margin-top: 0%; } }
+      font-family: "Playfair Display", serif; } }
 /* END OF MEDIUM MEDIA QUERY */
 /* BEGINNING OF LARGE MEDIA QUERY */
 @media only screen and (min-width: 1025px) {
@@ -1448,18 +1435,37 @@ body {
       margin-bottom: 2rem;
       font-family: "Playfair Display", serif;
       font-size: 1.6rem; }
+    div#input2 img.logo {
+      width: 10%; }
     div#input2 figure.cruise-booking {
-      margin: 0;
-      max-width: 100vw; }
+      display: flex;
+      max-width: 100vw;
+      justify-content: center;
+      margin: 2rem auto;
+      height: min-content; }
       div#input2 figure.cruise-booking img.cruise-booking {
-        width: 96%;
+        width: 35%;
+        height: min-content;
         margin-left: 1.5%;
         margin-right: 1.5%; }
     div#input2 div.cruise-text {
-      margin: 2%;
+      justify-content: flex-start;
+      margin: 0px 10px;
       display: flex;
-      justify-content: center;
       flex-direction: column; }
+      div#input2 div.cruise-text button {
+        align-items: flex-end;
+        font-family: "Playfair Display", serif;
+        padding: 10px 0px;
+        border: none;
+        background: #0887c2;
+        color: white;
+        border-radius: 8px;
+        width: 40%;
+        margin-left: 60%;
+        margin-right: 0;
+        margin-bottom: 0;
+        margin-top: 0%; }
       div#input2 div.cruise-text h2.cruise-h2 {
         margin-top: 0px;
         font-family: "Playfair Display", serif;
@@ -1468,35 +1474,5 @@ body {
       div#input2 div.cruise-text p.cruise-p {
         margin-top: 0;
         margin-bottom: 8%;
-        font-family: "Playfair Display", serif; }
-      div#input2 div.cruise-text button {
-        width: 99%;
-        margin: 0 auto;
-        margin-bottom: 2rem;
-        border-radius: 8px;
-        font-family: "Playfair Display", serif;
-        padding: 10px 0px;
-        border: none;
-        background: #0887c2;
-        color: white; }
-    div#input2 img.logo {
-      width: 10%; }
-    div#input2 figure.cruise-booking {
-      display: flex;
-      justify-content: center;
-      margin: 2rem auto;
-      height: min-content; }
-      div#input2 figure.cruise-booking img.cruise-booking {
-        width: 35%;
-        height: min-content; }
-    div#input2 div.cruise-text {
-      justify-content: flex-start;
-      margin: 0px 10px; }
-      div#input2 div.cruise-text button {
-        align-items: flex-end;
-        width: 40%;
-        margin-left: 60%;
-        margin-right: 0;
-        margin-bottom: 0;
-        margin-top: 0%; } }
+        font-family: "Playfair Display", serif; } }
 /*END OF LARGE MEDIA QUERY*/
