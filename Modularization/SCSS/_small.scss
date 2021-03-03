@@ -116,7 +116,10 @@ nav#nav{
   
 // if the site has a class of active added to any list itme then it is darkened for "Wayfinding"
   #primaryNav li.current-menu-item a {background-color: rgba(0,0,0,0.25);}
-  
+
+// if the site has a class of parent added lighten for "Wayfinding" 
+#primaryNav li.parent a{background-color: rgba(255, 255, 255, 0.15);}
+
 // style the anchors
 #primaryNav li a {
   display: block; // shows the nav links
@@ -131,7 +134,7 @@ nav#nav{
   
 // when hovering over any menu item or sub menu item darken by 5%
 #primaryNav li a:hover {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 // Toggle the navigation bar to expand down when the javascript assigns the "open" class
@@ -329,7 +332,7 @@ div#input2{
 @import "../SCSS/agent-small";
 
 /* CRUISE FORM PAGE CSS */
-@import "../SCSS/cruise-form-small"
+@import "../SCSS/cruise-form-small";
 
 
 

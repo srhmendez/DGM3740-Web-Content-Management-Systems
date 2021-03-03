@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../Modularization/CSS/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,800;1,600&display=swap" rel="stylesheet">   
-    <title>Cabot Cruizes</title>
+    <title><?php echo($pageTitle); ?></title>
 </head>
 <body>
 
@@ -41,12 +41,12 @@
             </div>
         </div>    
         <ul id="primaryNav">
-            <li class="home current-menu-item"><a href="index.php">Home</a></li>
+            <li class="home"><a href="index.php">Home</a></li>
             <li class="cruises"><a href="cruises.php">Cruises</a></li>
             <li class="parent"><a href="#">Agents</a>
-                <ul>
-                    <li class="nested"><a class="nestedLI" href="agent-1.php">Joanna Livingston</a></li>
-                    <li class="nested"><a class="nestedLI" href="agent-2.php">Juan Carlos</a></li>
+                <ul id="nestedUL">
+                    <li class="nested"><a class="nestedLI" href="agent-2.php">Joanna Livingston</a></li>
+                    <li class="nested"><a class="nestedLI" href="agent-1.php">Juan Carlos</a></li>
                 </ul>
             </li>
             <li class="book"><a href="booking.php">Book</a></li>

@@ -756,6 +756,9 @@ body {
   #primaryNav li.current-menu-item a {
     background-color: rgba(0, 0, 0, 0.25); }
 
+  #primaryNav li.parent a {
+    background-color: rgba(255, 255, 255, 0.15); }
+
   #primaryNav li a {
     display: block;
     width: 100%;
@@ -767,7 +770,7 @@ body {
     border-top: 1px solid rgba(0, 0, 0, 0.2); }
 
   #primaryNav li a:hover {
-    background-color: rgba(0, 0, 0, 0.5); }
+    background-color: rgba(255, 255, 255, 0.5); }
 
   #primaryNav.open {
     height: auto;
@@ -971,7 +974,7 @@ body {
 
   /* AGENT PAGE CSS */
   h1.agent-name {
-    font-size: "Playfair Display", serif;
+    font-family: "Playfair Display", serif;
     color: #5c5c5c;
     font-size: 2.1rem;
     margin-left: 10px; }
@@ -981,7 +984,7 @@ body {
     color: #5c5c5c; }
 
   p.customer-name {
-    font-family: #5c5c5c;
+    font-family: "Playfair Display", serif;
     color: #5c5c5c;
     font-weight: 700; }
 
@@ -1017,10 +1020,21 @@ body {
 
   h1#booking-h1 {
     margin-left: 20px;
-    margin-top: 50px; } }
+    margin-top: 50px; }
+
+  /* End Mobile Styles */ }
 /* End Mobile Styles */
 /* BEGINNING OF MEDIUM MEDIA QUERY */
 @media only screen and (min-width: 767px) {
+  ul#nestedUL {
+    padding-left: 0; }
+
+  li.nested {
+    padding: 0; }
+
+  li.current-menu-item {
+    padding: 0; }
+
   nav#nav.clearfix {
     height: 6rem; }
 
@@ -1252,7 +1266,7 @@ body {
     margin: 1%; }
 
   h1.agent-name {
-    font-size: "Playfair Display", serif;
+    font-family: "Playfair Display", serif;
     color: #5c5c5c;
     font-size: 2.6rem;
     margin-left: 10px;
@@ -1263,7 +1277,7 @@ body {
     color: #5c5c5c; }
 
   p.customer-name {
-    font-family: #5c5c5c;
+    font-family: "Playfair Display", serif;
     color: #5c5c5c;
     font-weight: 700; }
 
@@ -1309,7 +1323,13 @@ body {
 
   h1#booking-h1 {
     margin-left: 20px;
-    margin-top: 50px; } }
+    margin-top: 50px; }
+
+  select#state {
+    padding: 10px; }
+
+  select#cruiseSelection {
+    padding: 10px; } }
 /* END OF MEDIUM MEDIA QUERY */
 /* BEGINNING OF LARGE MEDIA QUERY */
 @media only screen and (min-width: 1025px) {

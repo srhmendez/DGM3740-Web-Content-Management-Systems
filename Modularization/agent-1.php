@@ -1,9 +1,14 @@
 <!-- INCLUDE HEADER -->
-<?php include"_header.php";?> 
+<?php $pageTitle="Agent Juan Carlos"; include"_header.php";?> 
 
+
+
+
+
+    <section class="agentJuan">
         <h1 class="agent-name">Juan Carlos</h1>
         <figure class="agent-photo">
-            <img id="agent-joanna" src="/Images/Juan-Carlos-2.jpg" alt="portrait of Juan Carlos">
+            <img id="agent-joanna" src="../Modularization/Images/Juan-Carlos-2.jpg" alt="portrait of Juan Carlos">
         </figure>
         <div id="text-wrap-content">
             <div id="agent-info-container">
@@ -55,11 +60,8 @@
 
         </div>
 
-        </div>
+    </section>
 
-    </main>
-
-
-
+    
 <!-- INCLUDE FOOTER -->
 <?php include"_footer.php";?>

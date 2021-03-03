@@ -1,5 +1,14 @@
 
 //Hamburger Menu
+ul#nestedUL{
+    padding-left:0;
+}
+li.nested{
+    padding:0;
+}
+li.current-menu-item{
+    padding:0;
+}
 nav#nav.clearfix{
     height:6rem;
 }

@@ -1,7 +1,7 @@
 //AGENT STYLING
 
 h1.agent-name{
-    font-size: $font;
+    font-family: $font;
     color:$footerText;
     font-size:2.1rem;
     margin-left:10px;
@@ -11,7 +11,7 @@ h2.agent-info-heading{
     color:$footerText;
 }
 p.customer-name{
-    font-family: $footerText;
+    font-family: $font;
     color:$footerText;
     font-weight: 700;
 }

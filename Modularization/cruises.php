@@ -1,5 +1,5 @@
 <!-- INCLUDE HEADER -->
-<?php include"_header.php";?>
+<?php $pageTitle="Cruise Options"; include"_header.php";?>
 
     <section id="Cruises">
 
@@ -64,10 +64,6 @@
         </div>
 
     </section>
-
-</body>
-
-</html>
 
 
 

@@ -1,9 +1,12 @@
 <!-- INCLUDE HEADER -->
-<?php include"_header.php";?> 
+<?php $pageTitle="Agent Joanna Livingston"; include"_header.php";?> 
 
+
+
+    <section class="agentJoanna">
         <h1 class="agent-name">Joanna Livingston</h1>
         <figure class="agent-photo">
-            <img id="agent-joanna" src="/Images/Joanna-Livingston-1.jpg" alt="portrait of joanna Livingston">
+            <img id="agent-joanna" src="../Modularization/Images/Joanna-Livingston-1.jpg" alt="portrait of Joanna Livingston">
         </figure>      
             <div id="text-wrap-content">
                 <div id="agent-info-container">
@@ -57,10 +60,7 @@
 
             </div>
 
-        </div>
-
-    </main>
-
+    </section>
 
 <!-- INCLUDE FOOTER -->
 <?php include"_footer.php";?>
