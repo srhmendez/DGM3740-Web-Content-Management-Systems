@@ -1,0 +1,88 @@
+
+
+/* HEADER STYLING CSS */
+@import "../SCSS/header-large";
+
+//Logo Information
+figure#logo2{
+    justify-content: space-between;
+}
+img#logo3{
+    max-width:200px;
+    justify-content: flex-start;
+    margin-left:1rem;
+}
+
+
+
+//Carousel Dots
+
+.slick-dots li button:before {
+  font-size:1.5rem;
+}
+
+
+//Featured Blog Posts
+h1{
+    font-family: $font;
+    margin-top:5rem;
+  }
+h1.footer-h1{
+  margin:1rem;
+  margin-bottom:.4rem;
+}
+  figure.featuredImage img{
+    margin:0;
+    background: $menuColor;
+    padding:0;
+    width:99%;
+  }
+  .featuredImages{
+    display:flex;
+    width:100%;
+    max-width:1200px;
+    flex-wrap: wrap;
+  }
+  figure.featuredImage{
+    display:flex;
+    position: relative;
+    flex-direction: column;
+    max-width:23%;
+    margin:.5% 1%;
+  }
+  h3.blogTitle{
+    padding:0;
+    margin:0;
+    position: absolute;
+    bottom:38px;
+    color:$menuTextColor;
+    text-shadow: black 3px 3px 6px;
+    background:rgba(65, 65, 65, 0.103);
+    width:98%;
+    word-wrap: inherit;
+    padding:2%;
+    font-family: $font;
+  
+  }
+  h4{
+    margin:0;
+    background:$menuColor;
+    padding:2%;
+    color: $menuTextColor;
+    font-family: $font;
+  
+  }
+  figure.featuredImage figcaption{
+    position: relative;
+    margin:0;
+    margin-left:0;
+    width:99%;
+    
+  }
+
+
+    /*AGENTS CSS LARGE*/
+    @import "../SCSS/agent-large";
+
+    /* FOOTER CSS LARGE */
+    @import "../SCSS/footer-large";

@@ -1,0 +1,181 @@
+
+
+///CSS RULES THAT APPLY TO SMALL, MEDIUM & LARGE SCREENS (outside of media query)
+
+
+
+// Body
+body{
+  margin:0 auto;
+  max-width:1200px;
+  main{
+    margin:0;
+    padding:2%;
+  }
+}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+#hamburgerBtn { 
+  display: none; 
+
+} /* hide the navigation button for all screen widths. We will show it below just for small screens */
+
+
+
+
+
+
+
+
+// BEGINNING OF MEDIA QUERY
+
+// limit the code below to the max width show in the media query below. This width should match the breakpoint where your suckerfish horizontal menu is to take over.
+@media only screen and (max-width: 65rem) {
+
+
+
+//HEADER STYLING FOR SMALL SCREENS
+@import "../SCSS/header-small";
+
+
+/* Pushes the body tag down to make room for the navigation bar at the top of the page */
+  body { padding-top: 2.75rem; }
+  
+
+
+
+// Starting Of Hero Image Code 
+
+section.hero{
+  z-index: 2;
+}
+ picture{
+  position: relative;
+  display:flex;
+  justify-content: center;
+}
+picture img{
+  margin:0 auto;
+  width:100%;
+}
+//Dots for slideshow
+
+.slick-dots li button:before {
+  font-size:2rem;
+}
+
+//Featured Blog Posts
+h1{
+  font-family: $font;
+  margin:.4rem;
+  margin-top:5rem;
+  font-size:1.2rem;
+}
+figure img{
+  margin:0;
+}
+.featuredImages{
+  display:flex;
+  width:100%;
+  max-width:1200px;
+  flex-wrap: wrap;
+}
+.featuredImage{
+  display:flex;
+  position: relative;
+  flex-direction: column;
+  width:48%;
+  margin:.5% 1%;
+}
+h3.blogTitle{
+  padding:0;
+  margin:0;
+  position: absolute;
+  bottom:30px;
+  color:$menuTextColor;
+  text-shadow: black 3px 3px 6px;
+  background:rgba(65, 65, 65, 0.103);
+  width:100%;
+  word-wrap: inherit;
+  padding:2%;
+  font-family: $font;
+
+}
+h4{
+  margin:0;
+  background:$menuColor;
+  padding:2%;
+  color: $menuTextColor;
+  font-family: $font;
+
+}
+figcaption{
+  position: relative;
+  
+}
+//FOOTER
+
+footer{
+  background: lighten($color:$menuColor, $amount: 50);
+  margin-top:2rem;
+  padding:2%;
+}
+footer h1{
+  color: $footerText;
+  margin:0;
+  padding-top:.5rem;
+  margin-left:2%;
+  font-family: $font;
+
+}
+footer p.copyright{
+  text-align: center;
+  padding-top:2rem;
+  margin-bottom:0;
+  padding-bottom:1rem;
+  font-family: $font;
+
+}
+p.footerText{
+  font-size:1rem;
+  padding:2%;
+  margin:0;
+  font-family: $font;
+}
+div#input2{
+  display:flex;
+  justify-content: flex-start;
+  width:100%;
+  margin-bottom:1rem;
+  margin-top:1rem;
+  input{
+    margin-left:3%;
+    padding:15px;
+    width:100%;
+    font-family: $font;
+  }
+  button{
+    background: lighten($color: $menuNames, $amount: 20);
+    box-shadow: none;
+    outline: none;
+    color:white;
+    border:none;
+    border-radius:10px;
+    margin-left:10px;
+    font-family: $font;
+
+  }
+  div.social{
+    width:100%;
+    margin-left:10%;
+    max-width:100vw;
+  }
+}
+
+/* AGENT PAGE CSS */
+@import "../SCSS/agent-small";
+
+}
+/* End Mobile Styles */

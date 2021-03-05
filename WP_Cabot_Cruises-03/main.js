@@ -1,36 +1,6 @@
 
 
-//This function toggles the hamburger menu closed and expanded
-function toggleMenu() {
-    document.getElementById("hamburgerBtn").classList.toggle('open')
-    document.getElementById("primaryNav").classList.toggle('open');
-}
-
-//assigning the variable to the DOM hamburger button element
-var x = document.getElementById('hamburgerBtn');
-
-//On click toggle the menu open and closed; calling the function
-x.onclick = toggleMenu;
-
-
-
-$(document).ready(function(){
-    $('.heroCaro').slick({
-        dots:true,
-        arrows:false,
-        infinite: true,
-        speed: 3,
-        slidesToShow: 1,
-        adaptiveHeight: true,
-        cssEase: 'fade-out',
-        autoplay:true,
-        autoplaySpeed:2500
-    });
-  });
-
-
 //Grabbing the Location of the current page being accessed and storing it into a variable
-
 var urlLocation = location.href;
 
 //Splitting the url on each forward slash
@@ -66,4 +36,3 @@ for (let i=0; i<getListOfNavListElements.length; i++) {
 //get length of the list of Anchor Elements in the Primary Navigation
 let getLengthOfAnchorElementsList = getListOfNavListElements.length;
 console.log(getLengthOfAnchorElementsList);
-

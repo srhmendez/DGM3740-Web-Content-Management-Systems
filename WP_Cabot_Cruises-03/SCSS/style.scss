@@ -1,14 +1,16 @@
 @import '../SCSS/normalize';
 @import "../SCSS/variables";
 
-@import "../slick/slick-theme.scss";
-@import "../slick/slick.scss";
+//@import "../slick/slick-theme.scss";
+//@import "../slick/slick.scss";
 
 
 @import "../SCSS/header";
 @import"../SCSS/footer";
 
 @import "../SCSS/small";
+
+
 
 /* BEGINNING OF MEDIUM MEDIA QUERY */
 @media only screen and (min-width: 767px) {
