@@ -1,0 +1,30 @@
+//AGENT STYLING
+
+h1.agent-name{
+    font-family: $font;
+    color:$footerText;
+    font-size:2.1rem;
+    margin-left:10px;
+}
+h2.agent-info-heading{
+    font-family: $font;
+    color:$footerText;
+}
+p.customer-name{
+    font-family: $font;
+    color:$footerText;
+    font-weight: 700;
+}
+figure.agent-photo{
+    max-width:100vw;
+    margin:10px;
+    img#agent-joanna{
+        width:100%;
+    }
+}
+div.agent-text{
+    margin:10px;
+}
+div.agent-customer-reviews{
+    margin-bottom:3rem;
+}
