@@ -1,0 +1,60 @@
+
+/* HEADER PAGE CSS */
+@import "../SCSS/header-medium";
+
+
+//Featured Images
+
+.featuredImages{
+    display:flex;
+    justify-content: flex-start;
+    width:99%;
+    max-width:1200px;
+    flex-wrap: wrap;
+    margin:0 auto;
+}
+figure.featuredImage{
+    display:flex;
+    position: relative;
+    flex-direction: column;
+    width:31%;
+    margin:.5% 1.1%;
+    img{
+        margin:1%;
+    }
+    figcaption{
+        margin-left:1%;
+        margin-right:1%;
+        bottom:10px;
+    }
+}
+
+
+//Recent Blog Posts Header
+h1{
+    font-size:1.2rem;
+}
+
+
+//Image Heading Overlays
+h3.blogTitle{
+    width:100%;
+    font-size:1.5rem;
+    bottom:35px;
+    margin-left:1%;
+}
+
+//Fig caption 
+figcaption{
+    h4{
+    font-size:1rem;
+    }
+}
+
+/* AGENT PAGE CSS */
+@import "../SCSS/agent-medium";
+
+/* FOOTER PAGE CSS */
+@import "../SCSS/footer-medium";
+
+

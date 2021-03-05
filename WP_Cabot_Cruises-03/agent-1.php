@@ -8,7 +8,7 @@
     <section class="agentJuan">
         <h1 class="agent-name">Juan Carlos</h1>
         <figure class="agent-photo">
-            <img id="agent-joanna" src="../Modularization/Images/Juan-Carlos-2.jpg" alt="portrait of Juan Carlos">
+            <img id="agent-joanna" src="../WP_Cabot_Cruises-03/Images/Juan-Carlos-2.jpg" alt="portrait of Juan Carlos">
         </figure>
         <div id="text-wrap-content">
             <div id="agent-info-container">

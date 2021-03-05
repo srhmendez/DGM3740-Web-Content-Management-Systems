@@ -6,7 +6,7 @@
     <section class="agentJoanna">
         <h1 class="agent-name">Joanna Livingston</h1>
         <figure class="agent-photo">
-            <img id="agent-joanna" src="../Modularization/Images/Joanna-Livingston-1.jpg" alt="portrait of Joanna Livingston">
+            <img id="agent-joanna" src="../WP_Cabot_Cruises-03/Images/Joanna-Livingston-1.jpg" alt="portrait of Joanna Livingston">
         </figure>      
             <div id="text-wrap-content">
                 <div id="agent-info-container">
