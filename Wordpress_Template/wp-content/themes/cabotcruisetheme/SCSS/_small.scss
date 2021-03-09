@@ -4,16 +4,31 @@
 
 
 
+/* GALLERY PAGE CSS */
+@import "../SCSS/gallery-small";
+
+
+//Read more links for search results etc. (adding a tab/whitespace between content and readmore
+a.readMore{
+  margin-left:.5rem;
+  color: lighten($color:rgb(255, 81, 0), $amount: 20);
+  border-radius: 10px;
+  padding:0px 5px;
+  text-decoration:none;
+}
 // Body
 body{
   margin:0 auto;
   max-width:1200px;
   main{
     margin:0;
-    padding:2%;
+    padding:4%;
   }
 }
-
+//site-page-title h1
+h1.site-page-title{
+  color:$menuColor;
+}
 /*  apply a natural box layout model to all elements  */
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
@@ -42,8 +57,16 @@ body{
 
 /* Pushes the body tag down to make room for the navigation bar at the top of the page */
   body { padding-top: 2.75rem; }
-  
 
+
+
+//search h2
+h2.search{
+  font-family: $font;
+  color:$menuColor;
+  font-size:1rem;
+  margin-top:1rem;
+}
 
 
 // Starting Of Hero Image Code 
@@ -67,10 +90,11 @@ picture img{
 }
 
 //Featured Blog Posts
-h1{
+h1.the-search-title{
   font-family: $font;
   margin:.4rem;
-  margin-top:5rem;
+  margin-top:2rem;
+  margin-left:0;
   font-size:1.2rem;
 }
 figure img{

@@ -6,7 +6,7 @@ header {
     display:flex;
     flex-direction: column;
     max-width: 1200px;
-    height:5rem;
+    height:7rem;
     width:100%;
   }
   div#logo.logo{
@@ -20,6 +20,9 @@ header {
     justify-content: center;
     margin:0 auto;
   
+  }
+  div.search form{
+    display:flex;
   }
   img#logo3{
     margin-top:1vh;

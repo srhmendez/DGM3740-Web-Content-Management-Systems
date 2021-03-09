@@ -1,12 +1,7 @@
-<!-- INCLUDE HEADER -->
-<?php $pageTitle="Agent Joanna Livingston"; include"_header.php";?> 
-
-
-
-    <section class="agentJoanna">
+<section class="agentJoanna">
         <h1 class="agent-name">Joanna Livingston</h1>
         <figure class="agent-photo">
-            <img id="agent-joanna" src="../WP_Cabot_Cruises-03/Images/Joanna-Livingston-1.jpg" alt="portrait of Joanna Livingston">
+            <img id="agent-joanna" src="../wp-content/themes/cabotcruisetheme/Images/Joanna-Livingston-1.jpg" alt="portrait of Joanna Livingston">
         </figure>      
             <div id="text-wrap-content">
                 <div id="agent-info-container">
@@ -59,8 +54,4 @@
                 <p class="customer-name">-Louis Selder</p>
 
             </div>
-
-    </section>
-
-<!-- INCLUDE FOOTER -->
-<?php include"_footer.php";?>
+</section>

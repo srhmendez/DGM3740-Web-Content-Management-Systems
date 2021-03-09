@@ -57,7 +57,7 @@ main {
  * Add the correct margin in IE 8.
  */
 figure {
-  margin: 1em 40px; }
+  margin: 1em; }
 
 /**
  * 1. Add the correct box sizing in Firefox.
@@ -396,7 +396,7 @@ header {
   display: flex;
   flex-direction: column;
   max-width: 1200px;
-  height: 5rem;
+  height: 7rem;
   width: 100%; }
 
 div#logo.logo {
@@ -409,6 +409,9 @@ figure#logo2 {
   align-items: center;
   justify-content: center;
   margin: 0 auto; }
+
+div.search form {
+  display: flex; }
 
 img#logo3 {
   margin-top: 1vh;
@@ -449,12 +452,40 @@ div.social {
   font-size: 2rem;
   color: #3a3a3a; }
 
+footer h1.footer-h1 {
+  font-size: 1.1rem; }
+
+/* GALLERY PAGE CSS */
+.gallery div img {
+  width: 100%; }
+
+.galleryflex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+div.galleryflex figure {
+  flex-basis: 50%; }
+
+figcaption.galleryCaption {
+  width: 100%; }
+
+a.readMore {
+  margin-left: .5rem;
+  color: #ff9766;
+  border-radius: 10px;
+  padding: 0px 5px;
+  text-decoration: none; }
+
 body {
   margin: 0 auto;
   max-width: 1200px; }
   body main {
     margin: 0;
-    padding: 2%; }
+    padding: 4%; }
+
+h1.site-page-title {
+  color: #0887c2; }
 
 /*  apply a natural box layout model to all elements  */
 * {
@@ -467,12 +498,17 @@ body {
 
 /* hide the navigation button for all screen widths. We will show it below just for small screens */
 @media only screen and (max-width: 65rem) {
+  header {
+    margin-top: 2.5vh;
+    padding-top: 2vh;
+    padding-bottom: 1vh; }
+
   nav {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 2.75rem;
+    height: 4rem;
     background-color: #0887c2;
     display: flex; }
 
@@ -483,7 +519,7 @@ body {
   #hamburgerBtn {
     margin-left: 2%;
     margin-right: 0;
-    padding-top: 10px;
+    padding-top: 0;
     display: flex;
     height: 2.75rem;
     background: none;
@@ -493,7 +529,7 @@ body {
     font-weight: normal;
     text-align: left; }
     #hamburgerBtn i {
-      font-size: 1.4rem;
+      font-size: 3rem;
       font-style: normal;
       margin-right: 10%;
       padding-bottom: 10%; }
@@ -569,7 +605,7 @@ body {
     height: auto;
     z-index: 998;
     position: absolute;
-    margin-top: 5%; }
+    margin-top: 0%; }
 
   #primaryNav li.parent > a::after {
     font-size: .75rem;
@@ -602,7 +638,7 @@ body {
   div.search {
     display: flex;
     flex-direction: row;
-    padding-top: 1.5%;
+    padding-top: 3.8%;
     padding-left: 10%;
     margin-left: 10%;
     margin-right: 4%;
@@ -619,6 +655,12 @@ body {
   body {
     padding-top: 2.75rem; }
 
+  h2.search {
+    font-family: "Playfair Display", serif;
+    color: #0887c2;
+    font-size: 1rem;
+    margin-top: 1rem; }
+
   section.hero {
     z-index: 2; }
 
@@ -634,10 +676,11 @@ body {
   .slick-dots li button:before {
     font-size: 2rem; }
 
-  h1 {
+  h1.the-search-title {
     font-family: "Playfair Display", serif;
     margin: .4rem;
-    margin-top: 5rem;
+    margin-top: 2rem;
+    margin-left: 0;
     font-size: 1.2rem; }
 
   figure img {
@@ -819,7 +862,8 @@ body {
     height: 10rem; }
 
   figure#logo2 {
-    width: 60%; }
+    width: 52%;
+    margin-left: 7%; }
 
   div#logo.logo {
     display: flex;
@@ -836,8 +880,7 @@ body {
   img#logo3 {
     margin: 0;
     margin-top: 6vh;
-    width: 100%;
-    margin-left: 5%; }
+    width: 100%; }
 
   header p {
     text-align: center;
@@ -870,6 +913,44 @@ body {
   span .openClose {
     margin-left: 3rem; }
 
+  body {
+    margin: 0 auto;
+    max-width: 1200px; }
+    body main {
+      margin: 0;
+      padding: 4%; }
+
+  header {
+    margin-top: 2vh; }
+
+  a.readMore {
+    margin-left: .5rem;
+    color: #ff9766;
+    border-radius: 10px;
+    padding: 0px 5px;
+    text-decoration: none; }
+
+  span {
+    max-height: 50px; }
+
+  button#hamburgerBtn {
+    margin-top: 1.4vh;
+    padding: 0;
+    max-height: 50px;
+    margin-left: 3%; }
+    button#hamburgerBtn span i {
+      padding-bottom: 1vh; }
+
+  nav#nav.clearfix {
+    height: fit-content;
+    padding-bottom: 2vh; }
+
+  div.search {
+    padding-top: 2vh; }
+
+  form.searchForm {
+    height: fit-content; }
+
   .featuredImages {
     display: flex;
     justify-content: flex-start;
@@ -893,6 +974,9 @@ body {
 
   h1 {
     font-size: 1.2rem; }
+
+  h1.the-search-title {
+    margin-top: 1rem; }
 
   h3.blogTitle {
     width: 100%;
@@ -938,11 +1022,11 @@ body {
     margin-bottom: 3rem; }
 
   div#text-wrap-content {
-    float: left;
+    float: top;
     max-width: 100%; }
 
   div.agent-biography {
-    margin-top: 37%; }
+    margin-top: 0%; }
 
   /* FOOTER PAGE CSS */
   div#input {
@@ -979,7 +1063,16 @@ body {
     grid-row: 3; }
 
   div.social {
-    max-width: 300px; } }
+    max-width: 300px; }
+
+  /* GALLERY PAGE CSS */
+  div.galleryflex {
+    width: 100%; }
+
+  div.galleryflex figure {
+    flex-basis: 28%; }
+    div.galleryflex figure img {
+      width: 100%; } }
 /* END OF MEDIUM MEDIA QUERY */
 /* BEGINNING OF LARGE MEDIA QUERY */
 @media only screen and (min-width: 1025px) {
@@ -994,11 +1087,14 @@ body {
     width: 100%;
     display: flex;
     flex-direction: row; }
-    div.search input {
-      width: 200px; }
-    div.search input.search {
-      height: 1.5rem;
-      width: 3rem; }
+    div.search form {
+      display: flex;
+      height: 1.5rem; }
+      div.search form input {
+        width: 180px; }
+      div.search form input.search {
+        height: 1.5rem;
+        width: 2rem; }
 
   nav#nav {
     width: 100%;
@@ -1063,14 +1159,16 @@ body {
     nav ul li ul {
       z-index: 998;
       position: absolute;
-      background-color: #077db3;
       left: -999em;
       /* pushes the menu way off to the side */
       width: 12em; }
+    nav ul li ul li:hover {
+      background-color: #077db3;
+      padding: 0; }
     nav ul li ul li {
       /* overides the float and line from the parent ul */
       width: 100%;
-      padding: .5rem;
+      padding: 0rem;
       color: white;
       font-weight: 500;
       border: none;
@@ -1078,9 +1176,23 @@ body {
       /* vertical line seperating sub menu items*/ }
     nav ul li:hover ul {
       left: auto;
-      margin-left: 0; }
+      margin-left: 0;
+      padding: 0; }
     nav li.current-menu-item a {
       background-color: rgba(0, 0, 0, 0.25); }
+
+  ul li ul.submenu li.menu-item {
+    padding: 0; }
+
+  header {
+    margin-top: 0vh; }
+
+  body {
+    margin: 0 auto;
+    max-width: 1200px; }
+    body main {
+      margin: 0;
+      padding: 2%; }
 
   figure#logo2 {
     justify-content: space-between; }
@@ -1090,16 +1202,25 @@ body {
     justify-content: flex-start;
     margin-left: 1rem; }
 
+  ul.sub-menu {
+    padding-left: 0; }
+
   .slick-dots li button:before {
     font-size: 1.5rem; }
 
   h1 {
     font-family: "Playfair Display", serif;
-    margin-top: 5rem; }
+    margin-top: 1rem; }
 
   h1.footer-h1 {
     margin: 1rem;
     margin-bottom: .4rem; }
+
+  h2.search {
+    color: #0887c2;
+    font-family: "Playfair Display", serif;
+    font-size: 1rem;
+    margin-top: 2rem; }
 
   figure.featuredImage img {
     margin: 0;
@@ -1148,7 +1269,10 @@ body {
 
   /*AGENTS CSS LARGE*/
   div.agent-biography {
-    margin-top: 32%; }
+    margin-top: 0%; }
+
+  div h2.agent-info-heading {
+    text-align: left; }
 
   /* FOOTER CSS LARGE */
   footer div#footerContainer {
@@ -1217,5 +1341,14 @@ body {
     div#input2 button {
       background: #0887c2;
       color: rgba(255, 255, 255, 0.9);
-      margin-left: 5%; } }
+      margin-left: 5%; }
+
+  /* GALLERY PAGE CSS */
+  div.galleryflex {
+    width: 100%; }
+
+  div.galleryflex figure {
+    flex-basis: 22%; }
+    div.galleryflex figure img {
+      width: 100%; } }
 /*END OF LARGE MEDIA QUERY*/
