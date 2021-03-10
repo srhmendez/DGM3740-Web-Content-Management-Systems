@@ -117,7 +117,7 @@ background-color: rgba(255, 255, 255, 0.5);
 }
 
 // Toggle the navigation bar to expand down when the javascript assigns the "open" class
-#primaryNav.menu.open {height: auto; z-index: 998;position:absolute;margin-top:0%;}
+#primaryNav.menu.open {height: auto; z-index: 998;position:absolute;margin-top:2.5%;}
 
 // .parent class indicates dropdown by adding a down arrow to the parent list item 
 #primaryNav li.parent > a::after {

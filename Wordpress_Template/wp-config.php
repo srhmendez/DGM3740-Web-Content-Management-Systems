@@ -18,6 +18,10 @@
  * @package WordPress
  */
 
+//DISABLE AUTOSAVING PAGES
+define(‘AUTOSAVE_INTERVAL’, 86400);
+
+
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'saragdla_WordPressTemplateDB' );

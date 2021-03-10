@@ -34,7 +34,7 @@
                 <span><i>&equiv;</i>OPEN</span>
             </button>
             <div class="search"> 
-                <form class="searchForm method="get" action="/Wordpress_Template/">
+                <form class="searchForm" method="get" action="/Wordpress_Template/">
                     <input class="sfield" id="form1" type="search" name="s" placeholder="Search..">
                     <input class="search" type="submit" value="&#128269;">
                 </form>

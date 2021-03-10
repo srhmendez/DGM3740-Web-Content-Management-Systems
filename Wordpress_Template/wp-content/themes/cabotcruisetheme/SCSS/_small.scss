@@ -1,11 +1,13 @@
 
-
 ///CSS RULES THAT APPLY TO SMALL, MEDIUM & LARGE SCREENS (outside of media query)
 
 
 
 /* GALLERY PAGE CSS */
 @import "../SCSS/gallery-small";
+
+/* LOCATION PAGE CSS */
+@import "../SCSS/location-small";
 
 
 //Read more links for search results etc. (adding a tab/whitespace between content and readmore
@@ -22,12 +24,22 @@ body{
   max-width:1200px;
   main{
     margin:0;
-    padding:4%;
   }
+}
+//adding padding to everything that isn't the slider
+div.nonSlider{
+  padding:0% 2%;
+}
+h1{
+  color:$h1Color;
 }
 //site-page-title h1
 h1.site-page-title{
-  color:$menuColor;
+  color:$h1Color;
+  font-size:1rem;
+}
+h1.the-page-title{
+  padding-left:4%;
 }
 /*  apply a natural box layout model to all elements  */
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
@@ -36,9 +48,6 @@ h1.site-page-title{
   display: none; 
 
 } /* hide the navigation button for all screen widths. We will show it below just for small screens */
-
-
-
 
 
 
@@ -55,8 +64,12 @@ h1.site-page-title{
 @import "../SCSS/header-small";
 
 
+h1{
+  font-size:1.4rem;
+}
+
 /* Pushes the body tag down to make room for the navigation bar at the top of the page */
-  body { padding-top: 2.75rem; }
+body { padding-top: 2.75rem; }
 
 
 

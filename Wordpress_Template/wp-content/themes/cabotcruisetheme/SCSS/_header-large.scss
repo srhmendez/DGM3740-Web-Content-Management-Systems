@@ -105,6 +105,7 @@ nav{
 	ul li ul {
 		z-index:998;
 		position: absolute;
+        background: $menuColor;
 		left: -999em; /* pushes the menu way off to the side */
 		width: 12em; //width of the sub menu items when the drop down
 	}

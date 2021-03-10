@@ -9,7 +9,6 @@ body{
     //main margin
     main{
       margin:0;
-      padding:4%;
     }
   }
 
@@ -80,7 +79,8 @@ figure.featuredImage{
 
 //Recent Blog Posts Header
 h1{
-    font-size:1.2rem;
+    font-size:1.8rem;
+    color:$h1Color;
 }
 
 h1.the-search-title{

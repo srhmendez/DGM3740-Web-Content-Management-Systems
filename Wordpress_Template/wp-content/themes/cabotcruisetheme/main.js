@@ -13,6 +13,20 @@ var x = document.getElementById('hamburgerBtn');
 x.onclick = toggleMenu;
 
 
+//SLICK SLIDER
+$(document).ready(function(){
+    $('.heroCaro').slick({
+        dots:true,
+        arrows:false,
+        infinite: true,
+        speed: 3,
+        slidesToShow: 1,
+        adaptiveHeight: true,
+        cssEase: 'fade-out',
+        autoplay:true,
+        autoplaySpeed:2500
+    });
+ });
 
 
 
