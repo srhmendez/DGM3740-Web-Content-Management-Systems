@@ -8,17 +8,17 @@
             <div id="footerContainer">
 
                 <div class="address">
-                    <h1 class="footer-h1">Address</h1>
+                    <h2 class="footer-h2">Address</h2>
                     <a class="addressLink" href="https://goo.gl/maps/8xjqcKbDYvaf6H7e7"></a><p class="footerText">Cabot Cruises</p>
                     <p class="footerText">150 Civic Center Dr</p>
                     <p class="footerText">Sandy, UT 84070</p>
-                    <h1 class="footer-h1">Phone</h1>
+                    <h2 class="footer-h2">Phone</h2>
                     <p class="footerText">(555)-555-5555</p>
-                    <h1 class="footer-h1">Hours of Operation</h1>
+                    <h2 class="footer-h2">Hours of Operation</h2>
                     <p class="footerText">Monday-Friday: 8am - 7pm</p>
                 </div>
                 <div class="newsletter">
-                    <h1 class="footer-h1">Newsletter</h1>
+                    <h2 class="footer-h2">Newsletter</h2>
                     <p class="footerText"> Subscribe to our Newsletter to stay up to date with our hottest deals and limited packages.</p>
                         <div id="input2">
                             <form>
@@ -28,7 +28,7 @@
                         </div>
                 </div>
                 <div class="why">
-                    <h1 class="footer-h1">Why Cabot Cruizes?</h1>
+                    <h2 class="footer-h2">Why Cabot Cruizes?</h2>
                     <p class="footerText" id="cabotText">Cabot Cruises is a travel agency providing the best cruise deals on our online travel website. We can help you with all inclusive vaca8ons
                         including discounted cruises.
                         We do not sell travel to residents of Delaware, Iowa, Florida, Hawaii and Washington state because those states are just weird. If you are a

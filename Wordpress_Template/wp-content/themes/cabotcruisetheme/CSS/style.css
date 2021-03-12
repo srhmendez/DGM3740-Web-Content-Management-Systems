@@ -657,7 +657,7 @@ div.social {
   font-size: 2rem;
   color: #3a3a3a; }
 
-footer h1.footer-h1 {
+footer h2.footer-h2 {
   font-size: 1.1rem; }
 
 /* GALLERY PAGE CSS */
@@ -691,6 +691,19 @@ a.phoneNum {
 a.emailAddress {
   text-decoration: none;
   color: black; }
+
+/* SERVICE PAGE CSS */
+div.serviceGallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
+  div.serviceGallery picture.servicePhoto {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 98%;
+    padding: 2vh 2%; }
+    div.serviceGallery picture.servicePhoto img {
+      width: 100%; }
 
 a.readMore {
   margin-left: .5rem;
@@ -961,7 +974,7 @@ h1.the-page-title {
     margin-top: 2rem;
     padding: 2%; }
 
-  footer h1 {
+  footer h2 {
     color: #5c5c5c;
     margin: 0;
     padding-top: .5rem;
@@ -1541,7 +1554,7 @@ h1.the-page-title {
     background: #ccedfd;
     margin-top: 2rem; }
 
-  footer h1 {
+  footer h2 {
     color: #5c5c5c;
     margin: 0;
     padding-top: 2rem;

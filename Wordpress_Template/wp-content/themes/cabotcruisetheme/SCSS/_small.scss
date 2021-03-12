@@ -9,6 +9,8 @@
 /* LOCATION PAGE CSS */
 @import "../SCSS/location-small";
 
+/* SERVICE PAGE CSS */
+@import "../SCSS/service-page-small";
 
 //Read more links for search results etc. (adding a tab/whitespace between content and readmore
 a.readMore{
@@ -159,7 +161,7 @@ footer{
   margin-top:2rem;
   padding:2%;
 }
-footer h1{
+footer h2{
   color: $footerText;
   margin:0;
   padding-top:.5rem;
