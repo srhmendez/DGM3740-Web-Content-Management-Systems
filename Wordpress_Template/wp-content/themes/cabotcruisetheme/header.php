@@ -8,6 +8,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,800;1,600&display=swap" rel="stylesheet">   
     <title>Cabot Cruises<?php wp_title(); ?></title>
+    <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
+   
+   <script> //CONTACT FORM CAPTCHA INFORMATION
+        function onClick(e) {
+            e.preventDefault();
+            grecaptcha.ready(function() {
+            grecaptcha.execute('reCAPTCHA_site_key', {action: 'submit'}).then(function(token) {
+                // Add your logic to submit to your backend server here.
+            });
+            });
+        }
+    </script>
 </head>
 <body>
 

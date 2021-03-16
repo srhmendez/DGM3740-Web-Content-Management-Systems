@@ -1,7 +1,8 @@
 
 ///CSS RULES THAT APPLY TO SMALL, MEDIUM & LARGE SCREENS (outside of media query)
 
-
+/* REGISTER FOR CONFERENCE PAGE CSS */
+@import "../SCSS/wp-plugins";
 
 /* GALLERY PAGE CSS */
 @import "../SCSS/gallery-small";
@@ -11,6 +12,8 @@
 
 /* SERVICE PAGE CSS */
 @import "../SCSS/service-page-small";
+
+
 
 //Read more links for search results etc. (adding a tab/whitespace between content and readmore
 a.readMore{
@@ -51,7 +54,9 @@ h1.the-page-title{
 
 } /* hide the navigation button for all screen widths. We will show it below just for small screens */
 
-
+main div#formDiv {
+  padding:0% 2%; 
+}
 
 
 

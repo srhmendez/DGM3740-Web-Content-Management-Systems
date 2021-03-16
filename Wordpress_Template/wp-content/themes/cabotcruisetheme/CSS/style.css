@@ -660,6 +660,10 @@ div.social {
 footer h2.footer-h2 {
   font-size: 1.1rem; }
 
+/* REGISTER FOR CONFERENCE PAGE CSS */
+div.wpcf7 {
+  margin: 0% 2%; }
+
 /* GALLERY PAGE CSS */
 .gallery div img {
   width: 100%; }
@@ -741,6 +745,9 @@ h1.the-page-title {
   display: none; }
 
 /* hide the navigation button for all screen widths. We will show it below just for small screens */
+main div#formDiv {
+  padding: 0% 2%; }
+
 @media only screen and (max-width: 65rem) {
   header {
     margin-top: 2.5vh;

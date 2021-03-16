@@ -66,3 +66,5 @@ for (let i=0; i<getListOfNavListElements.length; i++) {
 //get length of the list of Anchor Elements in the Primary Navigation
 let getLengthOfAnchorElementsList = getListOfNavListElements.length;
 console.log(getLengthOfAnchorElementsList);
+
+
