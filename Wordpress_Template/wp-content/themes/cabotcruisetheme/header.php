@@ -9,17 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,800;1,600&display=swap" rel="stylesheet">   
     <title>Cabot Cruises<?php wp_title(); ?></title>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-   
-   <script> //CONTACT FORM CAPTCHA INFORMATION
-        function onClick(e) {
-            e.preventDefault();
-            grecaptcha.ready(function() {
-            grecaptcha.execute('6LfzA4EaAAAAALTioTqL6VEZ969LvffFM_h0O8-l', {action: 'submit'}).then(function(token) {
-                // Verify your token on the server
-            });
-            });
-        }
-    </script>
+
 </head>
 <body>
 
