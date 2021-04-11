@@ -196,12 +196,12 @@ div#input2{
   margin-top:1rem;
   input{
     margin-left:3%;
-    padding:15px;
+    padding:5px 5px;
     width:100%;
     font-family: $font;
   }
   button{
-    background: lighten($color: $menuNames, $amount: 20);
+    background: $menuColor;
     box-shadow: none;
     outline: none;
     color:white;

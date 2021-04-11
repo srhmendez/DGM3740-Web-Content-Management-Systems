@@ -1,5 +1,42 @@
 //REGISTER FOR CONFERENCE STYLING
 
+
+
+//contact form
+
+//div margin for form
 div.wpcf7{
     margin: 0% 2%;
+}
+
+//styling contact form button
+input#contactUsButton{
+    color:$white;
+    background: $menuColor;
+    border-radius: 10px;
+    padding:5px 10px;
+    box-shadow: none;
+    outline: none;
+    color:white;
+    border:none;
+    font-family:$font;
+}
+
+//styling placeholder text
+::placeholder{
+    color:$placeholder;
+}
+
+//styling error text
+div.screen-reader-response{
+    display:none;
+}
+
+//adding padding between form and error text
+span.wpcf7-not-valid-tip{
+    padding-left:5px;
+    color:$error;
+}
+div.wpcf7-response-output{
+    @include errorFeedback;
 }

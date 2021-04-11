@@ -664,6 +664,31 @@ footer h2.footer-h2 {
 div.wpcf7 {
   margin: 0% 2%; }
 
+input#contactUsButton {
+  color: white;
+  background: #0887c2;
+  border-radius: 10px;
+  padding: 5px 10px;
+  box-shadow: none;
+  outline: none;
+  color: white;
+  border: none;
+  font-family: "Playfair Display", serif; }
+
+::placeholder {
+  color: #838383; }
+
+div.screen-reader-response {
+  display: none; }
+
+span.wpcf7-not-valid-tip {
+  padding-left: 5px;
+  color: red; }
+
+div.wpcf7-response-output {
+  font-family: "Playfair Display", serif;
+  color: red; }
+
 /* GALLERY PAGE CSS */
 .gallery div img {
   width: 100%; }
@@ -1009,11 +1034,11 @@ main div#formDiv {
     margin-top: 1rem; }
     div#input2 input {
       margin-left: 3%;
-      padding: 15px;
+      padding: 5px 5px;
       width: 100%;
       font-family: "Playfair Display", serif; }
     div#input2 button {
-      background: #6670ff;
+      background: #0887c2;
       box-shadow: none;
       outline: none;
       color: white;
@@ -1291,12 +1316,27 @@ main div#formDiv {
   div#input2 {
     display: flex;
     justify-content: flex-start;
-    margin-top: 10px; }
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 1rem; }
+    div#input2 input {
+      margin-left: 3%;
+      padding: 10px 5px;
+      width: 100%;
+      font-family: "Playfair Display", serif; }
     div#input2 button {
       background: #0887c2;
-      color: rgba(255, 255, 255, 0.9);
-      margin-left: 5%;
-      border-radius: 8px; }
+      box-shadow: none;
+      outline: none;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      margin-left: 10px;
+      font-family: "Playfair Display", serif; }
+    div#input2 div.social {
+      width: 100%;
+      margin-left: 10%;
+      max-width: 100vw; }
 
   div#footerContainer {
     display: grid;
@@ -1591,7 +1631,7 @@ main div#formDiv {
     display: flex;
     justify-content: flex-start;
     margin-left: 3%;
-    padding-left: 2%;
+    padding-left: .5%;
     margin-top: 10px; }
     div#input2 #form2 {
       height: 2rem; }

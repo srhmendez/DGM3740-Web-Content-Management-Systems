@@ -11,3 +11,9 @@ $menuTextColor: rgba(255,255,255,0.9);
 $socialIcons: rgb(58, 58, 58);
 $font: 'Playfair Display', serif;
 $h1Color: rgb(16, 116, 163);
+$placeholder: rgb(131, 131, 131);
+$error: red;
+@mixin errorFeedback {
+    font-family: $font;
+    color:$error;
+}
