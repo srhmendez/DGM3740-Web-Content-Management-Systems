@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,800;1,600&display=swap" rel="stylesheet">   
     <title>Cabot Cruises<?php wp_title(); ?></title>
-    <script src="https://www.google.com/recaptcha/api.js?render=6LfzA4EaAAAAALTioTqL6VEZ969LvffFM_h0O8-l"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
    
    <script> //CONTACT FORM CAPTCHA INFORMATION
         function onClick(e) {
