@@ -1,8 +1,4 @@
-//REGISTER FOR CONFERENCE STYLING
-
-
-
-//contact form
+/* CONTACT FORM CSS */
 
 //div margin for form
 div.wpcf7{
@@ -27,16 +23,29 @@ input#contactUsButton{
     color:$placeholder;
 }
 
-//styling error text
-div.screen-reader-response{
-    display:none;
+/* NEWS PAGE CSS */
+
+div.news-content{
+    padding:2%;
+    margin:.5rem;
+
+    //Date & News Category Link
+    div.grid-date-post{
+        background-color: lighten($color: $menuColor, $amount: 20%);
+        float:left;
+        #text{
+            color: $h1Color;
+        }
+        a {
+            text-decoration:none;
+            color: $placeholder;
+        }
+    }
+    div.post-content-text{
+        h3.news-title{
+            text-decoration:none;
+            color:$menuColor;
+        }
+    }
 }
 
-//adding padding between form and error text
-span.wpcf7-not-valid-tip{
-    padding-left:5px;
-    color:$error;
-}
-div.wpcf7-response-output{
-    @include errorFeedback;
-}

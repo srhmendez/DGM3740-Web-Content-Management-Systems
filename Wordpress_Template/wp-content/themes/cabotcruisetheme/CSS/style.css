@@ -660,7 +660,8 @@ div.social {
 footer h2.footer-h2 {
   font-size: 1.1rem; }
 
-/* REGISTER FOR CONFERENCE PAGE CSS */
+/* REGISTER FOR CONFERENCE PAGE CSS & NEWS PAGE CSS */
+/* CONTACT FORM CSS */
 div.wpcf7 {
   margin: 0% 2%; }
 
@@ -678,16 +679,21 @@ input#contactUsButton {
 ::placeholder {
   color: #838383; }
 
-div.screen-reader-response {
-  display: none; }
-
-span.wpcf7-not-valid-tip {
-  padding-left: 5px;
-  color: red; }
-
-div.wpcf7-response-output {
-  font-family: "Playfair Display", serif;
-  color: red; }
+/* NEWS PAGE CSS */
+div.news-content {
+  padding: 2%;
+  margin: .5rem; }
+  div.news-content div.grid-date-post {
+    background-color: #39bbf7;
+    float: left; }
+    div.news-content div.grid-date-post #text {
+      color: #1074a3; }
+    div.news-content div.grid-date-post a {
+      text-decoration: none;
+      color: #838383; }
+  div.news-content div.post-content-text h3.news-title {
+    text-decoration: none;
+    color: #0887c2; }
 
 /* GALLERY PAGE CSS */
 .gallery div img {

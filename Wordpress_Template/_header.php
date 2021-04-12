@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../Modularization/CSS/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,800;1,600&display=swap" rel="stylesheet">   
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <title><?php echo($pageTitle); ?></title>
 </head>
 <body>
