@@ -1,0 +1,17 @@
+//GALLERY STYLING FOR SMALL SCREENS
+
+.gallery div img{
+    width:100%;
+}
+
+.galleryflex{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div.galleryflex figure{
+    flex-basis: 50%;
+}
+figcaption.galleryCaption{
+    width:100%;
+}

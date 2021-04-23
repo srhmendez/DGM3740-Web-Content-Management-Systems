@@ -1,0 +1,16 @@
+//SERVICE PAGE STYLING
+
+div.serviceGallery{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    picture.servicePhoto{
+        max-width:1200px;
+        margin:0 auto;
+        width:98%;
+        padding:2vh 2%;
+        img{
+            width:100%;
+        }
+    }
+}

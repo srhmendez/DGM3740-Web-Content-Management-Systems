@@ -1,0 +1,126 @@
+
+
+//HEADER MEDIUM SCREENS STYLING
+
+
+//logo
+figure#logo2{
+  margin-left:2%;
+}
+
+//Hamburger Menu
+ul#nestedUL{
+  padding-left:0;
+}
+li.nested{
+  padding:0;
+}
+li.current-menu-item{
+  padding:0;
+}
+nav#nav.clearfix{
+  height:6rem;
+}
+button#hamburgerBtn{
+  width:50%;
+  height:6rem;
+}
+button#hamburgerBtn span:nth-child(2){
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+span .openClose{
+  font-size:100%;
+  padding-top:2%;
+  width:70%;
+  margin:0;
+  margin-top:10px;
+
+}
+#hamburgerBtn span i {
+  font-size:300%;
+  width:10%;
+  bottom:5px;
+}
+div#mobileBar{
+  height:50px;
+}
+//search bar
+div.search{
+  margin-left:5%;
+  margin-right:3%;
+  padding-top:2rem;
+  form{
+      margin-right:2%;
+      input.search{
+          margin-right:2%;
+      }
+  }
+}
+input#form2{
+  height: .8rem;
+}
+
+/* Header Rules */
+
+header {
+  display:flex;
+  flex-direction: row;
+  height:10rem;
+}
+figure#logo2{
+  width:52%;
+  margin-left:7%;
+}
+div#logo.logo{
+  display:flex;
+  align-items: center;
+  width:40%;
+  margin:0;
+}
+div#header{
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+img#logo3{
+  margin:0;
+  margin-top:6vh;
+  width:100%;
+}
+header p {
+  text-align: center;
+  color: $menuColor;
+  font-size: 1.2rem;
+}
+div.phoneNum{
+  display:flex;
+  align-items: center;
+  width:30%;
+  padding-left:15%;
+  margin-right:6%;
+}
+a#telephoneNum{
+  visibility: visible;
+  text-decoration: none;
+  background:$menuColor;
+  border-radius:10px;
+  width:100%;
+  p {
+      padding:3%;
+      color: $menuTextColor;
+      margin:0;
+      font-size:100%;
+      text-align: center;
+
+  }
+}
+nav span{
+  width:40%;
+}
+span .openClose{
+  margin-left:3rem;
+}

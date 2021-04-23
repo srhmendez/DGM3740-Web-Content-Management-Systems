@@ -1,0 +1,11 @@
+//GALLERY STYLING FOR MEDIUM SCREENS
+
+div.galleryflex{
+    width:100%;
+}
+div.galleryflex figure{
+    flex-basis:28%;
+    img{
+        width:100%;
+    }
+}

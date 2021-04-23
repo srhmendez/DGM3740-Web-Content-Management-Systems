@@ -1,0 +1,140 @@
+
+//HEADER LARGE SCREENS STYLING
+
+
+//Navigation
+button#hamburgerBtn {
+    display:none;
+}
+
+div.search{
+    padding:0;
+    margin-top:10px;
+    margin-right:2rem;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    form{
+        display:flex;
+        height:1.5rem;
+        input{
+            width:180px;
+          }
+          input.search{
+            height:1.5rem;
+            width: 2rem;
+          }
+    }
+
+}
+nav#nav{
+  width:100%;
+  display:flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+div#mobileBar{
+  width:25%;
+  display:flex;
+  flex-direction: row;
+}
+#menu-main-menu-container {
+    display:block;
+    padding-left:0;
+    padding:0;
+}
+nav#nav.clearfix{
+    height:2.6rem;
+}
+ul#primaryNav{
+    height: fit-content;
+    margin:0;
+}
+div.menu-main-menu-container{
+    height:fit-content;
+}
+nav{
+    display:flex;
+    flex-direction: row-reverse;
+    background-color:$menuColor;
+    max-width:1200px;
+    margin:0 auto;
+    height:1.6rem;
+
+// add space to the left to match the other left side elements DESIGN: Alignment
+    ul#primaryNav {
+        margin: 0;
+        padding: 0rem;
+    }
+//Change to a horizontal menu bar
+	ul>li {
+        float: left; 
+        list-style: none; 
+        border-left: 1px solid rgba(0,0,0,0.2); 
+    }
+    
+// add a single line so that all menu items have lines on both sides
+    ul li:last-child{border-right: 1px solid rgba(0,0,0,0.2);}
+    
+//style the anchors
+	ul li a { 
+		display: block;
+		background: none;
+		font-size: .9em;
+		padding: .9em .9em;
+		color: $menuTextColor;
+		text-decoration: none;
+		/*transition to transition over time on hover*/
+		-webkit-transition: background 0.3s linear; 
+		transition: background 0.3s linear;
+	}
+    
+// on mouse hovber darken the menu item
+	ul li a:hover {background: darken($menuColor,15%);}
+	
+// .parent class indicates dropdown by adding a down arrow to the parent list item 
+	#menu-main-menu li.parent > a::before {
+        font-size: .75rem;
+        content: "\25BC";
+        padding-right:.5rem;
+        padding-top:.2rem;
+		color: rgba(255,255,255,.5);
+	}
+    
+//rules for the sub menu items
+	ul li ul {
+		z-index:998;
+		position: absolute;
+        background: $menuColor;
+		left: -999em; /* pushes the menu way off to the side */
+		width: 12em; //width of the sub menu items when the drop down
+	}
+    ul li ul li:hover{
+        background-color: darken($menuColor, 3%);
+        padding:0;
+    }
+ 	ul li ul li { /* overides the float and line from the parent ul */
+        width: 100%;
+        padding:0rem;
+        color:$white;
+        font-weight: 500;
+        border: none;
+		border-top: solid 1px rgba(0,0,0,0.2); /* vertical line seperating sub menu items*/
+	}
+
+
+// this displays the menus as drop downs
+ 	ul li:hover ul { 
+		left: auto;
+		margin-left: 0;
+        padding:0;
+	}
+	
+// darkens the anchor of the current-menu-item 
+	li.current-menu-item a{background-color: rgba(0,0,0,0.25);}
+	
+}
+
+ul li ul.submenu li.menu-item{
+    padding:0;
+}
