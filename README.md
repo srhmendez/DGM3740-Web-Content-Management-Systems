@@ -6,6 +6,6 @@ This repository features projects 1-10 &amp; a Capstone Project for DGM 3740 tak
 
 - JavaScript ES6
 - CSS3
-- -SASS
+- SASS
 - HTML5
 - PHP
