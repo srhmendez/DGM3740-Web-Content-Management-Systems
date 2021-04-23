@@ -1,0 +1,37 @@
+/* CODE APPLIED TO ALL SIZES */
+body{
+  margin:0 auto;
+  max-width:1200px;
+}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+
+
+/* BEGINNING OF SMALL MEDIA QUERY */
+ 
+@media only screen and (max-width: 65rem) {
+
+
+
+
+
+  
+}
+
+/* CRUISE PAGE CSS */
+@import "../SCSS/cruise-bookings-small";
+
+/* AGENT PAGE CSS */
+@import "../SCSS/agent-small";
+
+/* CRUISE FORM PAGE CSS */
+@import "../SCSS/cruise-form-small";
+
+
+
+/* End Mobile Styles */
+}
+/* End Mobile Styles */

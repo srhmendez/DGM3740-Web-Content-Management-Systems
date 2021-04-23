@@ -1,0 +1,33 @@
+@import '../SCSS/normalize';
+@import "../SCSS/variables";
+
+
+@import "../SCSS/header";
+@import"../SCSS/footer";
+
+
+
+
+@import "../SCSS/small";
+
+/* END OF SMALL MEDIA QUERY */
+
+
+/* BEGINNING OF MEDIUM MEDIA QUERY */
+@media only screen and (min-width: 767px) {
+    @import "../SCSS/medium";
+
+} 
+/* END OF MEDIUM MEDIA QUERY */
+
+
+
+
+
+/* BEGINNING OF LARGE MEDIA QUERY */
+
+@media only screen and (min-width: 1025px) {
+    @import "../SCSS/large";
+
+} /*END OF LARGE MEDIA QUERY*/ 
+
