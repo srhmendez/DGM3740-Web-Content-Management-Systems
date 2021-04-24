@@ -10,27 +10,37 @@ body{
 
 
 
+nav.bg-light{
+  background-color:rgb(174, 224, 255) !important;
+}
+
+.btn-outline-success {
+  color: $buttonColor !important;
+  border-color: $buttonColor !important;
+}
+h1.pageTitle{
+  margin-left:2%;
+}
 /* BEGINNING OF SMALL MEDIA QUERY */
  
 @media only screen and (max-width: 65rem) {
 
+  form.form-width{
+    padding:2%;
+  }
 
-
-
-
-  
-}
-
-/* CRUISE PAGE CSS */
-@import "../SCSS/cruise-bookings-small";
-
-/* AGENT PAGE CSS */
-@import "../SCSS/agent-small";
-
-/* CRUISE FORM PAGE CSS */
-@import "../SCSS/cruise-form-small";
-
-
+  div.agentCards{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    div.card{
+      min-width:80%;
+      margin:0 auto;
+      margin:.5rem .5rem;
+    }
+  }
 
 /* End Mobile Styles */
 }
