@@ -21,10 +21,14 @@ nav.bg-light{
 h1.pageTitle{
   margin-left:2%;
 }
+
 /* BEGINNING OF SMALL MEDIA QUERY */
  
 @media only screen and (max-width: 65rem) {
-
+  .wordWrapImage{
+    width:98%;
+    margin:2%;
+  }
   form.form-width{
     padding:2%;
   }
