@@ -9,11 +9,19 @@ body{
 
 
 
-
+div#navbarSupportedContent{
+  display:flex;
+  justify-content: space-between;
+}
 nav.bg-light{
   background-color:rgb(174, 224, 255) !important;
 }
-
+.navbar-nav .nav-link:hover{
+  color: orangered !important;
+}
+.current-menu-item{
+  font-weight:700;
+}
 .btn-outline-success {
   color: $buttonColor !important;
   border-color: $buttonColor !important;

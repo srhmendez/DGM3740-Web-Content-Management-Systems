@@ -21,30 +21,19 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="https://dgm3740.sarahmendez.com/Dreamer-Vacations/">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://dgm3740.sarahmendez.com/Dreamer-Vacations/contact">Contact Us</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a href="https://dgm3740.sarahmendez.com/Dreamer-Vacations/resorts" class="nav-link">
-                  Resorts
-                </a>
-              </li>
-              <li class="nav-item dropdown">
-                <a href="https://dgm3740.sarahmendez.com/Dreamer-Vacations/agents" class="nav-link">
-                  Agents
-                </a>
-              </li>
-              <li class="nav-item dropdown">
-                <a href="https://dgm3740.sarahmendez.com/Dreamer-Vacations/packages" class="nav-link">
-                  Packages
-                </a>
-              </li>             
-
-            </ul>
+                    <?php
+             wp_nav_menu( array(
+             'menu'              => 'primary',
+             'theme_location'    => 'header-menu',
+             'depth'             => 2,
+             'container'         => 'div',
+             'container_class'   => '',
+             'container_id'      => '',
+             'menu_class'        => 'navbar-nav mr-auto',
+             'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+             'walker'            => new wp_bootstrap_navwalker())
+             );
+        ?>
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
