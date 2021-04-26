@@ -1,0 +1,83 @@
+//FOOTER
+
+footer{
+    background: lighten($color: $footerMenuColor, $amount: 20%);
+    margin-top:2rem;
+    padding:2%;
+  }
+  footer h5{
+    color: $footerTextColor;
+    margin:0;
+    padding-top:2rem;
+    padding-bottom:.8rem;
+    margin-left:2%;
+    font-family: $font;
+  
+  }
+  footer p.adminLink{
+      text-decoration:none;
+      color:rgb(77, 139, 255);
+      text-align: center;
+      margin-top:2rem;
+  }
+  footer p.copyright{
+    color:rgb(77, 139, 255);
+    text-align: center;
+    padding-top:.1rem;
+    margin-bottom:0;
+    margin-top:.5rem;
+    padding-bottom:1rem;
+    font-family: $font;
+  
+  }
+  p.footerText{
+    color: $footerTextColor;
+    font-size:1rem;
+    padding:.2rem 2%;
+    margin:0;
+    font-family: $font;
+  }
+  div#input2{
+    display:flex;
+    justify-content: flex-start;
+    width:100%;
+    margin-bottom:1rem;
+    margin-top:1rem;
+    padding-left:1%;
+    input{
+      margin-left:2%;
+      padding:15px;
+      width:100%;
+      font-family: $font;
+    }
+    button{
+      background: lighten($color: $buttonColor, $amount: 20);
+      box-shadow: none;
+      outline: none;
+      color:white;
+      border:none;
+      border-radius:10px;
+      margin-left:5%;
+      font-family: $font;
+  
+    }
+  }
+    div.social {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin: 0 auto;
+        width: 100%;
+        padding-bottom: 50px; 
+        div.iconContainer{
+            width:80%;
+            color:$footerTextColor;
+            display:flex;
+            justify-content: space-between;
+        }
+        i.social{
+            font-size: 30px;
+            margin:3%;
+        }
+    }
+  
