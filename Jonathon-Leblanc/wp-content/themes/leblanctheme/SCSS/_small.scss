@@ -1,0 +1,160 @@
+/* CODE APPLIED TO ALL SIZES */
+body{
+  margin:0 auto;
+  max-width:1200px;
+}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+#wpcf7-f44-p32-o1 > form > p:nth-child(6) > input {
+  background:rgb(212, 255, 209);
+  color:$buttonColor;
+  padding:5px 8px;
+  border-radius:8px;
+  border:$buttonColor solid 1px;
+}
+img.chefImage{
+  max-width:300px;
+  float:left;
+  margin:20px;
+  margin-bottom:3vh;
+}
+div.aboutBlurb{
+  padding:1rem 20px;
+  margin-bottom:30%;
+}
+div.telephoneDiv{
+  width:20%;
+  color:white;
+}
+.telColor{
+  color:white;
+}
+p.footerText a.phoneLink{
+  text-decoration: none;
+  color:$buttonColor;
+}
+p.footerText a.emailLink{
+  text-decoration: none;
+  color:$buttonColor;
+}
+p.footerText a.phoneLink:hover {
+  color:greenyellow;
+}
+p.footerText a.emailLink:hover{
+  color:greenyellow;
+}
+div.logoDiv{
+  max-width:50px;
+}
+img.logoImages{
+  color:black;
+  width:100%;
+}
+a.navbar-brand{
+  width:80px;
+}
+
+nav.bg-light{
+  background-color:$footerMenuColor !important;
+}
+.navbar-nav .nav-link:hover{
+  color: greenyellow !important;
+}
+.current-menu-item{
+  font-weight:700;
+}
+.btn-outline-success {
+  color: $buttonColor !important;
+  border-color: $buttonColor !important;
+}
+h1.pageTitle{
+  margin-left:2%;
+}
+.telColor{
+  color:white;
+}
+/* BEGINNING OF SMALL MEDIA QUERY */
+ 
+@media only screen and (max-width: 65rem) {
+  #glsr_20466c9f {
+    margin:2%;
+  }
+  #glsr_5daf8432 > div > div {
+    margin:2%;
+    padding:3%;
+    border:$footerTextColor 1px solid;
+  }
+  #review-105 > div.glsr-review-rating {
+    margin:10px 0px;
+    color:green;
+}
+div.glsr-review-date {
+  font-size:small;
+  margin-bottom:1rem;
+}
+div.glsr-review-title {
+  margin-top:2rem;
+}
+div.glsr-review-rating {
+margin:10px 0px;
+color:green;
+}
+#glsr_20466c9f {
+  padding:2%;
+  background: rgb(237, 243, 255);
+  width:96%;
+}
+  div.telephoneDiv{
+    width:100%;
+    margin-top:20px;
+  }
+  #accordionFlushExample{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  body > main > div:nth-child(2) {
+    display:flex;
+    justify-content: center;
+  }
+  div.aboutBlurb{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  h1{
+    padding-left:5vw;
+  }
+  body > main > div.wp-block-contact-form-7-contact-form-selector {
+    margin:auto 0;
+    padding:5vw;
+  }
+  div.telephoneDiv{
+    width:40%;
+  }
+  .wordWrapImage{
+    width:98%;
+    margin:2%;
+  }
+  form.form-width{
+    padding:2%;
+  }
+
+  div.agentCards{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    div.card{
+      min-width:80%;
+      margin:0 auto;
+      margin:.5rem .5rem;
+    }
+  }
+
+/* End Mobile Styles */
+}
+/* End Mobile Styles */

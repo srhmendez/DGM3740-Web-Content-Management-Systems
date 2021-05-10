@@ -13,14 +13,14 @@ PROJECT: CREATING A WORDPRESS TEMPLATE\
 \
 SUBDOMAIN: http://dgm3740.sarahmendez.com\
 FOLDER: dgm3740.sarahmendez.com\
-DATABASE: saragdla_DreamerVacationsDB\	
-USER: DreamerVacationsUSR\
-PASS: @LJbwEecNC2zr7Z
+DATABASE: saragdla_LeblancDB\	
+USER: saragdla_LeblancUSR\
+PASS: *%zl)ZA_,8Pk
 TABLE PREFIX: wp_\
 \
 Admin User for WordPress\
-WP-ADMIN: DreamerVacationsAdmin
-WP-PASS: Q$*FL4P!fPBxI1(vZt
+WP-ADMIN: LeblancAdmin
+WP-PASS: egF25p#6&hr&C#21dn
 \
 \
 *************************************************************}
